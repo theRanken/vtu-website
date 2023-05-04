@@ -1,0 +1,281 @@
+[27-Apr-2022 21:46:47 Africa/Lagos] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/abbanyay/public_html/new/assets/checkpin.php:1) in /home/abbanyay/public_html/new/assets/checkpin.php on line 3
+[27-Apr-2022 22:14:37 Africa/Lagos] PHP Warning:  A non-numeric value encountered in /home/abbanyay/public_html/new/assets/unapprovebank.php on line 27
+[28-Apr-2022 02:39:40 Africa/Lagos] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/abbanyay/public_html/new/assets/checkpin.php:1) in /home/abbanyay/public_html/new/assets/checkpin.php on line 3
+[22-Feb-2023 19:08:42 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[22-Feb-2023 19:08:52 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[22-Feb-2023 19:09:23 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[22-Feb-2023 20:34:25 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[22-Feb-2023 21:40:56 UTC] PHP Notice:  Undefined variable: con in /home/africa16/public_html/aimaconnect.com.ng/assets/monnifypayment.php on line 4
+[22-Feb-2023 21:40:56 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/africa16/public_html/aimaconnect.com.ng/assets/monnifypayment.php on line 4
+[22-Feb-2023 21:40:56 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/africa16/public_html/aimaconnect.com.ng/assets/monnifypayment.php on line 5
+[22-Feb-2023 22:41:02 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[22-Feb-2023 22:43:01 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[22-Feb-2023 22:47:06 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[23-Feb-2023 06:09:50 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[23-Feb-2023 06:17:29 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[23-Feb-2023 06:19:12 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[23-Feb-2023 06:22:31 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[23-Feb-2023 06:23:49 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[23-Feb-2023 08:02:37 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[23-Feb-2023 08:04:32 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[23-Feb-2023 08:20:30 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[23-Feb-2023 08:22:15 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[23-Feb-2023 09:10:56 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[23-Feb-2023 09:47:33 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[23-Feb-2023 10:31:05 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[23-Feb-2023 10:36:40 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[23-Feb-2023 10:37:05 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[23-Feb-2023 10:37:22 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[23-Feb-2023 10:53:25 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[23-Feb-2023 11:11:47 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[23-Feb-2023 11:48:43 UTC] PHP Notice:  Undefined variable: con in /home/africa16/public_html/aimaconnect.com.ng/assets/monnifypayment.php on line 4
+[23-Feb-2023 11:48:43 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/africa16/public_html/aimaconnect.com.ng/assets/monnifypayment.php on line 4
+[23-Feb-2023 11:48:43 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/africa16/public_html/aimaconnect.com.ng/assets/monnifypayment.php on line 5
+[23-Feb-2023 12:51:50 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[23-Feb-2023 12:52:02 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[23-Feb-2023 12:52:50 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[23-Feb-2023 12:55:20 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[23-Feb-2023 12:57:12 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[23-Feb-2023 12:58:19 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[23-Feb-2023 12:59:59 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[23-Feb-2023 13:20:31 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[23-Feb-2023 14:13:30 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[23-Feb-2023 14:13:39 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[23-Feb-2023 14:24:52 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[23-Feb-2023 15:54:23 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[23-Feb-2023 15:55:24 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[23-Feb-2023 16:37:51 UTC] PHP Notice:  Undefined variable: con in /home/africa16/public_html/aimaconnect.com.ng/assets/monnifypayment.php on line 4
+[23-Feb-2023 16:37:51 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/africa16/public_html/aimaconnect.com.ng/assets/monnifypayment.php on line 4
+[23-Feb-2023 16:37:51 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/africa16/public_html/aimaconnect.com.ng/assets/monnifypayment.php on line 5
+[23-Feb-2023 17:38:13 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[23-Feb-2023 17:49:19 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[23-Feb-2023 17:52:16 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[23-Feb-2023 17:53:40 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[23-Feb-2023 19:04:43 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[23-Feb-2023 19:30:17 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[23-Feb-2023 19:37:36 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[23-Feb-2023 20:26:07 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[23-Feb-2023 20:45:20 UTC] PHP Notice:  Undefined variable: con in /home/africa16/public_html/aimaconnect.com.ng/assets/monnifypayment.php on line 4
+[23-Feb-2023 20:45:20 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/africa16/public_html/aimaconnect.com.ng/assets/monnifypayment.php on line 4
+[23-Feb-2023 20:45:20 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/africa16/public_html/aimaconnect.com.ng/assets/monnifypayment.php on line 5
+[23-Feb-2023 22:06:07 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[23-Feb-2023 22:58:57 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[24-Feb-2023 07:47:31 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[24-Feb-2023 12:21:08 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[24-Feb-2023 16:29:29 UTC] PHP Notice:  Undefined variable: con in /home/africa16/public_html/aimaconnect.com.ng/assets/monnifypayment.php on line 4
+[24-Feb-2023 16:29:29 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/africa16/public_html/aimaconnect.com.ng/assets/monnifypayment.php on line 4
+[24-Feb-2023 16:29:29 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/africa16/public_html/aimaconnect.com.ng/assets/monnifypayment.php on line 5
+[24-Feb-2023 17:56:23 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[24-Feb-2023 17:56:44 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[24-Feb-2023 17:58:20 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[24-Feb-2023 20:23:31 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[24-Feb-2023 20:24:31 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[24-Feb-2023 20:25:27 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[24-Feb-2023 21:01:28 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[24-Feb-2023 21:04:25 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[24-Feb-2023 20:23:38 UTC] PHP Notice:  Undefined variable: con in /home/africa16/public_html/aimaconnect.com.ng/assets/monnifypayment.php on line 4
+[24-Feb-2023 20:23:38 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/africa16/public_html/aimaconnect.com.ng/assets/monnifypayment.php on line 4
+[24-Feb-2023 20:23:38 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/africa16/public_html/aimaconnect.com.ng/assets/monnifypayment.php on line 5
+[24-Feb-2023 21:40:04 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[24-Feb-2023 22:03:14 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[24-Feb-2023 23:26:26 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[24-Feb-2023 22:48:33 UTC] PHP Notice:  Undefined variable: con in /home/africa16/public_html/aimaconnect.com.ng/assets/monnifypayment.php on line 4
+[24-Feb-2023 22:48:33 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/africa16/public_html/aimaconnect.com.ng/assets/monnifypayment.php on line 4
+[24-Feb-2023 22:48:33 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/africa16/public_html/aimaconnect.com.ng/assets/monnifypayment.php on line 5
+[24-Feb-2023 23:55:20 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[24-Feb-2023 23:57:56 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[25-Feb-2023 06:28:57 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[25-Feb-2023 07:02:21 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[25-Feb-2023 07:23:51 UTC] PHP Notice:  Undefined variable: con in /home/africa16/public_html/aimaconnect.com.ng/assets/monnifypayment.php on line 4
+[25-Feb-2023 07:23:51 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/africa16/public_html/aimaconnect.com.ng/assets/monnifypayment.php on line 4
+[25-Feb-2023 07:23:51 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/africa16/public_html/aimaconnect.com.ng/assets/monnifypayment.php on line 5
+[25-Feb-2023 08:24:26 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[25-Feb-2023 08:08:36 UTC] PHP Notice:  Undefined variable: con in /home/africa16/public_html/aimaconnect.com.ng/assets/monnifypayment.php on line 4
+[25-Feb-2023 08:08:36 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/africa16/public_html/aimaconnect.com.ng/assets/monnifypayment.php on line 4
+[25-Feb-2023 08:08:36 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/africa16/public_html/aimaconnect.com.ng/assets/monnifypayment.php on line 5
+[25-Feb-2023 09:10:53 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[25-Feb-2023 09:32:56 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[25-Feb-2023 09:33:06 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[25-Feb-2023 10:06:05 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[25-Feb-2023 10:35:05 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[25-Feb-2023 09:51:59 UTC] PHP Notice:  Undefined variable: con in /home/africa16/public_html/aimaconnect.com.ng/assets/monnifypayment.php on line 4
+[25-Feb-2023 09:51:59 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/africa16/public_html/aimaconnect.com.ng/assets/monnifypayment.php on line 4
+[25-Feb-2023 09:51:59 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/africa16/public_html/aimaconnect.com.ng/assets/monnifypayment.php on line 5
+[25-Feb-2023 10:56:25 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[25-Feb-2023 11:25:19 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[25-Feb-2023 12:28:17 UTC] PHP Notice:  Undefined variable: con in /home/africa16/public_html/aimaconnect.com.ng/assets/monnifypayment.php on line 4
+[25-Feb-2023 12:28:17 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/africa16/public_html/aimaconnect.com.ng/assets/monnifypayment.php on line 4
+[25-Feb-2023 12:28:17 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/africa16/public_html/aimaconnect.com.ng/assets/monnifypayment.php on line 5
+[25-Feb-2023 13:29:42 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[25-Feb-2023 16:57:08 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[25-Feb-2023 16:13:17 UTC] PHP Notice:  Undefined variable: con in /home/africa16/public_html/aimaconnect.com.ng/assets/monnifypayment.php on line 4
+[25-Feb-2023 16:13:17 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/africa16/public_html/aimaconnect.com.ng/assets/monnifypayment.php on line 4
+[25-Feb-2023 16:13:17 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/africa16/public_html/aimaconnect.com.ng/assets/monnifypayment.php on line 5
+[25-Feb-2023 17:14:10 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[25-Feb-2023 17:16:04 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[25-Feb-2023 17:17:35 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[25-Feb-2023 17:13:21 UTC] PHP Notice:  Undefined variable: con in /home/africa16/public_html/aimaconnect.com.ng/assets/monnifypayment.php on line 4
+[25-Feb-2023 17:13:21 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/africa16/public_html/aimaconnect.com.ng/assets/monnifypayment.php on line 4
+[25-Feb-2023 17:13:21 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/africa16/public_html/aimaconnect.com.ng/assets/monnifypayment.php on line 5
+[25-Feb-2023 18:14:49 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[25-Feb-2023 19:04:02 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[25-Feb-2023 19:06:28 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[25-Feb-2023 19:28:05 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[25-Feb-2023 20:04:22 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[25-Feb-2023 20:06:41 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[25-Feb-2023 22:03:09 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[25-Feb-2023 21:06:40 UTC] PHP Notice:  Undefined variable: con in /home/africa16/public_html/aimaconnect.com.ng/assets/monnifypayment.php on line 4
+[25-Feb-2023 21:06:40 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/africa16/public_html/aimaconnect.com.ng/assets/monnifypayment.php on line 4
+[25-Feb-2023 21:06:40 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/africa16/public_html/aimaconnect.com.ng/assets/monnifypayment.php on line 5
+[25-Feb-2023 22:07:29 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[25-Feb-2023 22:20:16 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[25-Feb-2023 22:26:59 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[26-Feb-2023 08:13:29 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[26-Feb-2023 07:43:23 UTC] PHP Notice:  Undefined variable: con in /home/africa16/public_html/aimaconnect.com.ng/assets/monnifypayment.php on line 4
+[26-Feb-2023 07:43:23 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/africa16/public_html/aimaconnect.com.ng/assets/monnifypayment.php on line 4
+[26-Feb-2023 07:43:23 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/africa16/public_html/aimaconnect.com.ng/assets/monnifypayment.php on line 5
+[26-Feb-2023 08:43:37 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[26-Feb-2023 08:44:45 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[26-Feb-2023 10:12:10 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[26-Feb-2023 10:27:33 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[26-Feb-2023 10:29:08 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[26-Feb-2023 11:37:48 Africa/Lagos] PHP Notice:  Undefined variable: check_tranid in /home/africa16/public_html/aimaconnect.com.ng/assets/add_dataplan.php on line 47
+[26-Feb-2023 11:37:48 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/africa16/public_html/aimaconnect.com.ng/assets/add_dataplan.php on line 47
+[26-Feb-2023 11:38:38 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[26-Feb-2023 12:01:43 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[26-Feb-2023 12:02:13 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[26-Feb-2023 19:18:40 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[26-Feb-2023 20:18:18 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[26-Feb-2023 21:41:09 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[26-Feb-2023 22:32:02 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[26-Feb-2023 22:53:53 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[26-Feb-2023 22:54:33 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[27-Feb-2023 08:11:50 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[27-Feb-2023 08:12:56 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[27-Feb-2023 11:16:23 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[27-Feb-2023 11:41:54 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[27-Feb-2023 11:43:50 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[27-Feb-2023 12:08:33 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[27-Feb-2023 12:08:50 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[27-Feb-2023 11:17:22 UTC] PHP Notice:  Undefined variable: con in /home/africa16/public_html/aimaconnect.com.ng/assets/monnifypayment.php on line 4
+[27-Feb-2023 11:17:22 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/africa16/public_html/aimaconnect.com.ng/assets/monnifypayment.php on line 4
+[27-Feb-2023 11:17:22 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/africa16/public_html/aimaconnect.com.ng/assets/monnifypayment.php on line 5
+[27-Feb-2023 13:02:20 UTC] PHP Notice:  Undefined variable: con in /home/africa16/public_html/aimaconnect.com.ng/assets/monnifypayment.php on line 4
+[27-Feb-2023 13:02:20 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/africa16/public_html/aimaconnect.com.ng/assets/monnifypayment.php on line 4
+[27-Feb-2023 13:02:20 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/africa16/public_html/aimaconnect.com.ng/assets/monnifypayment.php on line 5
+[27-Feb-2023 14:02:47 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[27-Feb-2023 14:03:37 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[27-Feb-2023 14:06:09 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[27-Feb-2023 14:06:22 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[27-Feb-2023 14:06:34 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[27-Feb-2023 14:29:40 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[27-Feb-2023 14:49:02 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[27-Feb-2023 15:46:14 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[27-Feb-2023 16:54:19 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[27-Feb-2023 18:32:27 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[27-Feb-2023 18:32:47 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[27-Feb-2023 18:33:01 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[27-Feb-2023 19:26:34 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[27-Feb-2023 19:28:53 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[27-Feb-2023 20:55:34 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[27-Feb-2023 20:57:02 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[27-Feb-2023 20:58:27 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[27-Feb-2023 22:12:45 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[27-Feb-2023 22:14:13 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[28-Feb-2023 00:12:04 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[28-Feb-2023 07:22:27 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[28-Feb-2023 07:23:53 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[28-Feb-2023 07:24:35 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[28-Feb-2023 07:24:52 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[28-Feb-2023 09:25:49 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[28-Feb-2023 14:25:51 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[28-Feb-2023 16:43:22 UTC] PHP Notice:  Undefined variable: con in /home/africa16/public_html/aimaconnect.com.ng/assets/monnifypayment.php on line 4
+[28-Feb-2023 16:43:22 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/africa16/public_html/aimaconnect.com.ng/assets/monnifypayment.php on line 4
+[28-Feb-2023 16:43:22 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/africa16/public_html/aimaconnect.com.ng/assets/monnifypayment.php on line 5
+[28-Feb-2023 17:49:10 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[28-Feb-2023 17:50:04 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[28-Feb-2023 21:54:55 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[28-Feb-2023 22:02:41 UTC] PHP Notice:  Undefined variable: con in /home/africa16/public_html/aimaconnect.com.ng/assets/monnifypayment.php on line 4
+[28-Feb-2023 22:02:41 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/africa16/public_html/aimaconnect.com.ng/assets/monnifypayment.php on line 4
+[28-Feb-2023 22:02:41 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/africa16/public_html/aimaconnect.com.ng/assets/monnifypayment.php on line 5
+[28-Feb-2023 23:09:55 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[28-Feb-2023 23:23:07 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[28-Feb-2023 23:23:21 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[28-Feb-2023 23:24:34 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[01-Mar-2023 00:40:24 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[01-Mar-2023 00:40:58 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[28-Feb-2023 23:42:21 UTC] PHP Notice:  Undefined variable: con in /home/africa16/public_html/aimaconnect.com.ng/assets/monnifypayment.php on line 4
+[28-Feb-2023 23:42:21 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/africa16/public_html/aimaconnect.com.ng/assets/monnifypayment.php on line 4
+[28-Feb-2023 23:42:21 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/africa16/public_html/aimaconnect.com.ng/assets/monnifypayment.php on line 5
+[01-Mar-2023 00:42:39 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[01-Mar-2023 06:03:27 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[01-Mar-2023 08:20:30 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[01-Mar-2023 08:21:50 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[01-Mar-2023 09:28:40 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[01-Mar-2023 10:32:25 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[01-Mar-2023 10:48:18 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[01-Mar-2023 10:56:48 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[01-Mar-2023 11:06:13 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[01-Mar-2023 11:07:06 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[01-Mar-2023 11:17:35 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[01-Mar-2023 11:42:01 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[01-Mar-2023 11:43:27 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[01-Mar-2023 11:46:55 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[01-Mar-2023 12:14:01 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[01-Mar-2023 12:46:17 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[01-Mar-2023 13:55:51 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[01-Mar-2023 13:58:04 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[01-Mar-2023 13:58:53 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[01-Mar-2023 14:41:38 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[01-Mar-2023 14:41:41 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[01-Mar-2023 14:41:43 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[01-Mar-2023 14:42:51 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[01-Mar-2023 15:06:23 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[01-Mar-2023 15:06:31 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[01-Mar-2023 15:17:13 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[01-Mar-2023 15:17:46 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[01-Mar-2023 16:05:24 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[01-Mar-2023 21:15:40 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[01-Mar-2023 21:15:45 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[01-Mar-2023 21:16:18 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[01-Mar-2023 21:56:12 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[01-Mar-2023 21:58:51 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[01-Mar-2023 22:00:04 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[01-Mar-2023 22:01:16 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[01-Mar-2023 22:01:52 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[01-Mar-2023 22:04:15 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[01-Mar-2023 22:05:33 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[01-Mar-2023 22:14:13 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[01-Mar-2023 22:25:12 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[01-Mar-2023 22:27:42 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[01-Mar-2023 22:39:57 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[01-Mar-2023 22:57:25 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[02-Mar-2023 00:05:04 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[02-Mar-2023 00:11:57 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[02-Mar-2023 11:56:19 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[02-Mar-2023 15:08:05 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[02-Mar-2023 17:23:19 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[02-Mar-2023 17:24:02 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[02-Mar-2023 21:16:53 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[02-Mar-2023 21:03:27 UTC] PHP Notice:  Undefined variable: con in /home/africa16/public_html/aimaconnect.com.ng/assets/monnifypayment.php on line 4
+[02-Mar-2023 21:03:27 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/africa16/public_html/aimaconnect.com.ng/assets/monnifypayment.php on line 4
+[02-Mar-2023 21:03:27 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/africa16/public_html/aimaconnect.com.ng/assets/monnifypayment.php on line 5
+[02-Mar-2023 22:05:20 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[02-Mar-2023 22:06:34 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[02-Mar-2023 22:10:45 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[02-Mar-2023 22:12:08 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[02-Mar-2023 22:16:45 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[02-Mar-2023 22:30:53 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[03-Mar-2023 07:45:38 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[03-Mar-2023 08:09:32 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[03-Mar-2023 08:10:04 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[03-Mar-2023 08:27:15 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[03-Mar-2023 08:28:21 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[03-Mar-2023 09:26:46 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[03-Mar-2023 09:27:21 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[03-Mar-2023 09:28:27 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[03-Mar-2023 12:37:25 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[03-Mar-2023 12:40:40 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[03-Mar-2023 12:42:38 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[03-Mar-2023 12:44:09 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8
+[03-Mar-2023 13:40:01 Africa/Lagos] PHP Notice:  Undefined variable: plans in /home/africa16/public_html/aimaconnect.com.ng/assets/getdata.php on line 8

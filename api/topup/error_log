@@ -1,0 +1,13 @@
+[19-Feb-2022 18:05:18 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$Status in /home/afrovib1/Dataplan.com.ng/api/topup/index.php on line 173
+[19-Feb-2022 18:05:18 Africa/Lagos] PHP Notice:  Undefined variable: data_name in /home/afrovib1/Dataplan.com.ng/api/topup/index.php on line 219
+[19-Feb-2022 18:05:18 Africa/Lagos] PHP Notice:  Undefined index: web in /home/afrovib1/Dataplan.com.ng/core/fail.php on line 552
+[19-Feb-2022 18:07:59 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$Status in /home/afrovib1/Dataplan.com.ng/api/topup/index.php on line 173
+[19-Feb-2022 18:07:59 Africa/Lagos] PHP Notice:  Undefined variable: data_name in /home/afrovib1/Dataplan.com.ng/api/topup/index.php on line 219
+[19-Feb-2022 18:07:59 Africa/Lagos] PHP Notice:  Undefined index: web in /home/afrovib1/Dataplan.com.ng/core/fail.php on line 552
+[23-Feb-2023 06:22:15 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$plan_name in /home/africa16/public_html/aimaconnect.com.ng/core/invoice.php on line 526
+[23-Feb-2023 06:22:15 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$transid in /home/africa16/public_html/aimaconnect.com.ng/core/invoice.php on line 534
+[23-Feb-2023 06:22:15 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$mobile_number in /home/africa16/public_html/aimaconnect.com.ng/core/invoice.php on line 547
+[23-Feb-2023 06:22:15 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$date in /home/africa16/public_html/aimaconnect.com.ng/core/invoice.php on line 559
+[03-Mar-2023 09:13:48 Africa/Lagos] PHP Notice:  Undefined variable: data_name in /home/africa16/public_html/aimaconnect.com.ng/api/topup/index.php on line 221
+[03-Mar-2023 09:13:48 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$msg in /home/africa16/public_html/aimaconnect.com.ng/core/fail.php on line 520
+[03-Mar-2023 09:13:48 Africa/Lagos] PHP Notice:  Undefined index: web in /home/africa16/public_html/aimaconnect.com.ng/core/fail.php on line 552

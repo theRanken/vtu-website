@@ -1,0 +1,74 @@
+[19-Feb-2022 00:14:52 Africa/Lagos] PHP Notice:  Undefined variable: min in /home/afrovib1/Dataplan.com.ng/admin/user.php on line 471
+[27-Apr-2022 22:14:29 Africa/Lagos] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home/abbanyay/public_html/new/admin/aprovebank.php on line 68
+[22-Feb-2023 16:50:59 Africa/Lagos] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'africa16_Africandream4'@'localhost' (using password: YES) in /home/africa16/public_html/aimaconnect.com.ng/core/conn.php on line 8
+[22-Feb-2023 16:50:59 Africa/Lagos] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/africa16/public_html/aimaconnect.com.ng/core/conn.php on line 14
+[22-Feb-2023 16:50:59 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/africa16/public_html/aimaconnect.com.ng/core/conn.php on line 16
+[22-Feb-2023 16:50:59 Africa/Lagos] PHP Notice:  Undefined variable: web in /home/africa16/public_html/aimaconnect.com.ng/core/conn.php on line 19
+[22-Feb-2023 16:50:59 Africa/Lagos] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/africa16/public_html/aimaconnect.com.ng/core/conn.php on line 20
+[22-Feb-2023 16:50:59 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/africa16/public_html/aimaconnect.com.ng/core/conn.php on line 22
+[22-Feb-2023 16:51:06 Africa/Lagos] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'africa16_Africandream4'@'localhost' (using password: YES) in /home/africa16/public_html/aimaconnect.com.ng/core/conn.php on line 8
+[22-Feb-2023 16:51:06 Africa/Lagos] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/africa16/public_html/aimaconnect.com.ng/core/conn.php on line 14
+[22-Feb-2023 16:51:06 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/africa16/public_html/aimaconnect.com.ng/core/conn.php on line 16
+[22-Feb-2023 16:51:06 Africa/Lagos] PHP Notice:  Undefined variable: web in /home/africa16/public_html/aimaconnect.com.ng/core/conn.php on line 19
+[22-Feb-2023 16:51:06 Africa/Lagos] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/africa16/public_html/aimaconnect.com.ng/core/conn.php on line 20
+[22-Feb-2023 16:51:06 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/africa16/public_html/aimaconnect.com.ng/core/conn.php on line 22
+[22-Feb-2023 16:51:06 Africa/Lagos] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/africa16/public_html/aimaconnect.com.ng/admin/index.php on line 9
+[22-Feb-2023 16:51:06 Africa/Lagos] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/africa16/public_html/aimaconnect.com.ng/admin/index.php on line 10
+[22-Feb-2023 16:51:06 Africa/Lagos] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/africa16/public_html/aimaconnect.com.ng/admin/index.php on line 14
+[22-Feb-2023 16:51:06 Africa/Lagos] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/africa16/public_html/aimaconnect.com.ng/admin/index.php on line 17
+[22-Feb-2023 16:51:06 Africa/Lagos] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/africa16/public_html/aimaconnect.com.ng/admin/index.php on line 20
+[22-Feb-2023 16:51:06 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/africa16/public_html/aimaconnect.com.ng/admin/index.php on line 23
+[22-Feb-2023 16:51:06 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/africa16/public_html/aimaconnect.com.ng/admin/index.php on line 40
+[22-Feb-2023 16:51:06 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/africa16/public_html/aimaconnect.com.ng/admin/index.php on line 44
+[22-Feb-2023 16:51:12 Africa/Lagos] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'africa16_Africandream4'@'localhost' (using password: YES) in /home/africa16/public_html/aimaconnect.com.ng/core/conn.php on line 8
+[22-Feb-2023 16:51:12 Africa/Lagos] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/africa16/public_html/aimaconnect.com.ng/core/conn.php on line 14
+[22-Feb-2023 16:51:12 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/africa16/public_html/aimaconnect.com.ng/core/conn.php on line 16
+[22-Feb-2023 16:51:12 Africa/Lagos] PHP Notice:  Undefined variable: web in /home/africa16/public_html/aimaconnect.com.ng/core/conn.php on line 19
+[22-Feb-2023 16:51:12 Africa/Lagos] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/africa16/public_html/aimaconnect.com.ng/core/conn.php on line 20
+[22-Feb-2023 16:51:12 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/africa16/public_html/aimaconnect.com.ng/core/conn.php on line 22
+[22-Feb-2023 16:51:12 Africa/Lagos] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/africa16/public_html/aimaconnect.com.ng/admin/index.php on line 9
+[22-Feb-2023 16:51:12 Africa/Lagos] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/africa16/public_html/aimaconnect.com.ng/admin/index.php on line 10
+[22-Feb-2023 16:51:12 Africa/Lagos] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/africa16/public_html/aimaconnect.com.ng/admin/index.php on line 14
+[22-Feb-2023 16:51:12 Africa/Lagos] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/africa16/public_html/aimaconnect.com.ng/admin/index.php on line 17
+[22-Feb-2023 16:51:12 Africa/Lagos] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/africa16/public_html/aimaconnect.com.ng/admin/index.php on line 20
+[22-Feb-2023 16:51:12 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/africa16/public_html/aimaconnect.com.ng/admin/index.php on line 23
+[22-Feb-2023 16:51:12 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/africa16/public_html/aimaconnect.com.ng/admin/index.php on line 40
+[22-Feb-2023 16:51:12 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/africa16/public_html/aimaconnect.com.ng/admin/index.php on line 44
+[22-Feb-2023 20:16:59 Africa/Lagos] PHP Notice:  Trying to get property of non-object in /home/africa16/public_html/aimaconnect.com.ng/admin/adex_plug.php on line 24
+[23-Feb-2023 08:16:03 Africa/Lagos] PHP Notice:  Trying to get property of non-object in /home/africa16/public_html/aimaconnect.com.ng/admin/adex_plug.php on line 24
+[23-Feb-2023 08:16:53 Africa/Lagos] PHP Notice:  Undefined variable: min in /home/africa16/public_html/aimaconnect.com.ng/admin/user.php on line 471
+[23-Feb-2023 08:53:40 Africa/Lagos] PHP Notice:  Trying to get property of non-object in /home/africa16/public_html/aimaconnect.com.ng/admin/adex_plug.php on line 24
+[23-Feb-2023 09:35:54 Africa/Lagos] PHP Notice:  Trying to get property of non-object in /home/africa16/public_html/aimaconnect.com.ng/admin/adex_plug.php on line 24
+[23-Feb-2023 09:40:14 Africa/Lagos] PHP Notice:  Trying to get property of non-object in /home/africa16/public_html/aimaconnect.com.ng/admin/adex_plug.php on line 24
+[23-Feb-2023 20:12:22 Africa/Lagos] PHP Notice:  Trying to get property of non-object in /home/africa16/public_html/aimaconnect.com.ng/admin/adex_plug.php on line 24
+[23-Feb-2023 20:24:24 Africa/Lagos] PHP Notice:  Undefined index: ntn_gifting in /home/africa16/public_html/aimaconnect.com.ng/admin/data_service.php on line 48
+[26-Feb-2023 11:04:55 Africa/Lagos] PHP Notice:  Trying to get property of non-object in /home/africa16/public_html/aimaconnect.com.ng/admin/adex_plug.php on line 24
+[26-Feb-2023 11:05:55 Africa/Lagos] PHP Notice:  Trying to get property of non-object in /home/africa16/public_html/aimaconnect.com.ng/admin/adex_plug.php on line 24
+[26-Feb-2023 11:37:15 Africa/Lagos] PHP Notice:  Trying to get property of non-object in /home/africa16/public_html/aimaconnect.com.ng/admin/detect_planid.php on line 37
+[26-Feb-2023 11:37:15 Africa/Lagos] PHP Notice:  Trying to get property of non-object in /home/africa16/public_html/aimaconnect.com.ng/admin/detect_planid.php on line 43
+[27-Feb-2023 11:17:10 Africa/Lagos] PHP Notice:  Trying to get property of non-object in /home/africa16/public_html/aimaconnect.com.ng/admin/adex_plug.php on line 24
+[27-Feb-2023 11:18:11 Africa/Lagos] PHP Notice:  Undefined variable: bal in /home/africa16/public_html/aimaconnect.com.ng/admin/pen_tes.php on line 295
+[27-Feb-2023 11:18:11 Africa/Lagos] PHP Notice:  Undefined variable: min in /home/africa16/public_html/aimaconnect.com.ng/admin/pen_tes.php on line 295
+[28-Feb-2023 14:40:51 Africa/Lagos] PHP Notice:  Trying to get property of non-object in /home/africa16/public_html/aimaconnect.com.ng/admin/adex_plug.php on line 24
+[28-Feb-2023 14:50:16 Africa/Lagos] PHP Notice:  Undefined index: ntn_gifting in /home/africa16/public_html/aimaconnect.com.ng/admin/data_service.php on line 48
+[28-Feb-2023 14:56:03 Africa/Lagos] PHP Notice:  Undefined index: ntn_gifting in /home/africa16/public_html/aimaconnect.com.ng/admin/data_service.php on line 48
+[28-Feb-2023 14:56:07 Africa/Lagos] PHP Notice:  Trying to get property of non-object in /home/africa16/public_html/aimaconnect.com.ng/admin/adex_plug.php on line 24
+[28-Feb-2023 15:16:01 Africa/Lagos] PHP Notice:  Undefined variable: min in /home/africa16/public_html/aimaconnect.com.ng/admin/user.php on line 471
+[28-Feb-2023 15:17:18 Africa/Lagos] PHP Notice:  Undefined index: name in /home/africa16/public_html/aimaconnect.com.ng/admin/notif.php on line 106
+[28-Feb-2023 15:17:18 Africa/Lagos] PHP Notice:  Undefined variable: bal in /home/africa16/public_html/aimaconnect.com.ng/admin/notif.php on line 222
+[28-Feb-2023 15:17:18 Africa/Lagos] PHP Notice:  Undefined variable: min in /home/africa16/public_html/aimaconnect.com.ng/admin/notif.php on line 222
+[28-Feb-2023 15:18:44 Africa/Lagos] PHP Notice:  Undefined index: name in /home/africa16/public_html/aimaconnect.com.ng/admin/terms.php on line 84
+[28-Feb-2023 15:20:16 Africa/Lagos] PHP Notice:  Undefined index: name in /home/africa16/public_html/aimaconnect.com.ng/admin/terms.php on line 84
+[28-Feb-2023 15:32:33 Africa/Lagos] PHP Notice:  Trying to get property of non-object in /home/africa16/public_html/aimaconnect.com.ng/admin/adex_plug.php on line 24
+[28-Feb-2023 17:13:40 Africa/Lagos] PHP Notice:  Trying to get property of non-object in /home/africa16/public_html/aimaconnect.com.ng/admin/adex_plug.php on line 24
+[28-Feb-2023 17:14:21 Africa/Lagos] PHP Notice:  Trying to get property of non-object in /home/africa16/public_html/aimaconnect.com.ng/admin/adex_plug.php on line 24
+[01-Mar-2023 00:41:05 Africa/Lagos] PHP Notice:  Trying to get property of non-object in /home/africa16/public_html/aimaconnect.com.ng/admin/adex_plug.php on line 24
+[01-Mar-2023 00:42:38 Africa/Lagos] PHP Notice:  Trying to get property of non-object in /home/africa16/public_html/aimaconnect.com.ng/admin/adex_plug.php on line 24
+[01-Mar-2023 09:25:59 Africa/Lagos] PHP Notice:  Trying to get property of non-object in /home/africa16/public_html/aimaconnect.com.ng/admin/adex_plug.php on line 24
+[01-Mar-2023 15:11:31 Africa/Lagos] PHP Notice:  Trying to get property of non-object in /home/africa16/public_html/aimaconnect.com.ng/admin/adex_plug.php on line 24
+[01-Mar-2023 15:12:22 Africa/Lagos] PHP Notice:  Trying to get property of non-object in /home/africa16/public_html/aimaconnect.com.ng/admin/adex_plug.php on line 24
+[01-Mar-2023 15:16:31 Africa/Lagos] PHP Notice:  Undefined index: ntn_gifting in /home/africa16/public_html/aimaconnect.com.ng/admin/data_service.php on line 48
+[02-Mar-2023 07:57:41 Africa/Lagos] PHP Notice:  Trying to get property of non-object in /home/africa16/public_html/aimaconnect.com.ng/admin/adex_plug.php on line 24
+[02-Mar-2023 16:28:32 Africa/Lagos] PHP Notice:  Trying to get property of non-object in /home/africa16/public_html/aimaconnect.com.ng/admin/adex_plug.php on line 24
+[02-Mar-2023 16:29:35 Africa/Lagos] PHP Notice:  Trying to get property of non-object in /home/africa16/public_html/aimaconnect.com.ng/admin/adex_plug.php on line 24
+[03-Mar-2023 09:11:24 Africa/Lagos] PHP Notice:  Trying to get property of non-object in /home/africa16/public_html/aimaconnect.com.ng/admin/adex_plug.php on line 24
