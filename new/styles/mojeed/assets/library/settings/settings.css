@@ -1,0 +1,155 @@
+.block-settings-wrapper {
+    position: fixed;
+    left: -251px;
+    top: 20%;
+    width: 251px;
+    z-index: 9999;
+    transition: all .3s;
+}
+
+.block-settings-wrapper section {
+    display: block;
+    clear: both;
+    padding: 15px 12px 15px 15px;
+    height: 219px;
+    background-color: #fff;
+    box-shadow: 0 1px 2px rgba(35, 35, 35, 0.1), transparent 0 0 0, transparent 0 0 0;
+}
+
+.block-settings-wrapper section h3 {
+    clear: both;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+    color: #333;
+    margin: 0 0 15px 0 !important;
+}
+
+.block-settings-wrapper section hr {
+    display: block;
+    border: none;
+    height: 1px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background: #ccc;
+}
+
+
+/* Header styles */
+
+.block-settings-wrapper section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.block-settings-wrapper section ul li {
+    list-style: none;
+    margin: 0 0 5px 0;
+    padding: 0;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.block-settings-wrapper section ul li:last-child {
+    margin-bottom: 0;
+}
+
+.block-settings-wrapper section ul li a {
+    color: #808080;
+}
+
+.block-settings-wrapper section ul li a:hover {
+    color: #666;
+}
+
+.block-settings-wrapper section ul li.active a {
+    font-weight: bold;
+    color: #1f2528;
+}
+
+.block-settings-wrapper section ul li.active>i {
+    margin-left: 5px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+
+/* Colors */
+
+.block-settings-wrapper section span {
+    display: block;
+    float: left;
+    width: 25px;
+    height: 25px;
+    margin-right: 3px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.block-settings-wrapper section span.blue {
+    background-color: #7c4fe0;
+}
+
+.block-settings-wrapper section span.green {
+    background-color: #2aa275;
+}
+
+.block-settings-wrapper section span.red {
+    background-color: #ff3d65;
+}
+
+.block-settings-wrapper section span.turquoise {
+    background-color: orange;
+}
+
+.block-settings-wrapper section span.purple {
+    background-color: #d1397c;
+}
+
+.block-settings-wrapper section span.orange {
+    background-color: #ee8f67;
+}
+
+.block-settings-wrapper section span.yellow {
+    background-color: #e4d20c;
+}
+
+.block-settings-wrapper section span.grey {
+    background-color: #6b798f;
+}
+
+
+/* Close */
+
+.block-settings-wrapper #settings_close {
+    width: 39px;
+    height: 39px;
+    display: block;
+    position: absolute;
+    right: -39px;
+    top: 0px;
+    background-repeat: no-repeat;
+    background-image: url(images/icon_panel.png);
+    background-color: #1f2528;
+    transition: all .3s;
+    border-radius: 0px 2px 2px 0px;
+    text-indent: -9000px;
+}
+
+.block-settings-wrapper #settings_close:hover {
+    background-color: #434343;
+}
+
+
+/* Opened */
+
+.opened-settings .block-settings-wrapper {
+    left: 0px;
+}
+
+@media (max-width:767px) {
+    .block-settings-wrapper {
+        display: none;
+    }
+}

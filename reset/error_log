@@ -1,0 +1,6 @@
+[28-Feb-2022 13:26:30 Africa/Lagos] PHP Warning:  include(../include/footer.php): failed to open stream: No such file or directory in /home/afrovib1/Dataplan.com.ng/reset/index.php on line 280
+[28-Feb-2022 13:26:30 Africa/Lagos] PHP Warning:  include(../include/footer.php): failed to open stream: No such file or directory in /home/afrovib1/Dataplan.com.ng/reset/index.php on line 280
+[28-Feb-2022 13:26:30 Africa/Lagos] PHP Warning:  include(): Failed opening '../include/footer.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/afrovib1/Dataplan.com.ng/reset/index.php on line 280
+[03-Mar-2022 01:59:02 Africa/Lagos] PHP Warning:  include(../include/footer.php): failed to open stream: No such file or directory in /home/afrovib1/Dataplan.com.ng/reset/index.php on line 280
+[03-Mar-2022 01:59:02 Africa/Lagos] PHP Warning:  include(../include/footer.php): failed to open stream: No such file or directory in /home/afrovib1/Dataplan.com.ng/reset/index.php on line 280
+[03-Mar-2022 01:59:02 Africa/Lagos] PHP Warning:  include(): Failed opening '../include/footer.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/afrovib1/Dataplan.com.ng/reset/index.php on line 280
