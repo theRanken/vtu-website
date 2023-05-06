@@ -21,7 +21,7 @@ if(is_get()){
         }        
     }
     else{
-        echo json_encode("Error, 'billers code', 'serviceID' & 'meterType' fields are required!");
+        echo json_encode("Error: 'serviceID' field is required!");
         return http_response_code(400);
     }
 }
@@ -41,17 +41,16 @@ else if(is_post()){
 
                try{
                     $details = $exam->buy_scratch_card($user, $service, $variation, $phone);
-
                     echo $details;
                     return http_response_code(200);
-                    
+
                 }catch(Exception $e){
                     echo json_encode($e->getMessage());
                     return http_response_code(500);
                 }
 
             } else {
-                echo json_encode("Bad Request, All bulk message fields are required");
+                echo json_encode("Error: All fields are required!");
                 return http_response_code(400);
             }
         } else {

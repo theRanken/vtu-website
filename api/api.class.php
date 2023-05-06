@@ -58,11 +58,14 @@ class BaseApiClient
             );
         }
 
-        if ($options['debug'] === false){
-            $this->api = $options['sandbox_url'] ?? $options['live_url'];
-        } else {
-            $this->api = $options['live_url'];
-        }
+        /**  
+        * This crazy one-liner assigns api url
+        * based on the "debug" option setting
+        * if the sandbox_url isn't found it defaults to 
+        * the live_url setting if "debug === true"   
+        */
+        $this->api = ($options['debug'] === false) ? 
+                        $options['live_url'] : $options['sandbox_url'] ?? $options['live_url'];
     }
 
     protected function getBasicAuthHeaderValue(){
