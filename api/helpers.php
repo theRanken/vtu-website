@@ -2,6 +2,48 @@
 require_once dirname(__DIR__) . '/core/conn.php';
 require_once dirname(__DIR__) . '/core/template-engine/Template.php';
 
+// request method helpers
+function request_method():string
+{
+    return $_SERVER['REQUEST_METHOD'];
+}
+
+function is_get():bool
+{
+    return request_method() == "GET";
+}
+
+function is_post():bool
+{
+    return request_method() == "POST";
+}
+
+function is_put():bool
+{
+    return request_method() == "PUT";
+}
+
+function is_patch():bool
+{
+    return request_method() == "PATCH";
+}
+
+function is_delete():bool
+{
+    return request_method() == "DELETE";
+}
+
+
+// application/user helpers
+function get_a_request_id(){
+    $randString = strtoupper(substr(uniqid(), 0, 8));
+    date_default_timezone_set("Africa/Lagos");
+    $date = date('Ymdhm');
+    $id = $date . $randString;
+
+    return $id;
+}
+
 function is_authenticated(): bool
 {
     if (!isset($_SESSION['user_id'])) {
@@ -9,22 +51,26 @@ function is_authenticated(): bool
     }
     return true;
 }
+
+// check if token is set
 function is_authorized()
 {
     $headers = apache_request_headers();
-    $token = $headers['Authorization'];
+    $token = $headers['X-API-KEY'] ?? $headers['Authorization'];
     if (!isset($token)) {
         return false;
     }
     return true;
 }
+
+// get the token
 function get_token()
 {
     $headers = apache_request_headers();
-    $token = $headers['Authorization'];
+    $token = $headers['X-API-KEY'] ?? $headers['Authorization'];
     if (!isset($token))
         return null;
-    return trim(str_replace("Token", "", $headers['Authorization']));
+    return trim(str_replace("Token", "", $token));
 }
 function is_verified(int|string $unique_id): bool
 {

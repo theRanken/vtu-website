@@ -5,18 +5,19 @@ if (isset($_SESSION['name'])) {
   require_once '../core/api.php';
   $da = "";
   $msg = "";
-  $sql = mysqli_query($con, "SELECT * FROM user WHERE id = {$_SESSION['id']}");
+  $user = $_SESSION['id'];
+  $sql = mysqli_query($con, "SELECT * FROM user WHERE id ='$user' ");
   if(mysqli_num_rows($sql) > 0) $row = mysqli_fetch_assoc($sql);
   $bal = $row['bal'];
+  $apikey = $row['apikey'];
   $chek = mysqli_query($con, "SELECT * FROM pay");
   $pdata = mysqli_fetch_array($chek);
   $min = $pdata['min'];
   $refbal = $row['refbal'];
-  $id = $_SESSION['id'] ?? null;
   ?>
 <?php include '../includes/header.php'; ?>
 <!-- End Sidebar -->
-<div class="main-panel ">
+<div class="main-panel px-xl-5 mx-auto">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="static/ogbam/form.css">
     <style>
@@ -40,7 +41,8 @@ if (isset($_SESSION['name'])) {
         display: none;
     }
 
-    /--thank you pop starts here--/ .thank-you-pop {
+    /*--thank you pop starts here-*/
+    .thank-you-pop {
         width: 100%;
         padding: 20px;
         text-align: center;
@@ -102,13 +104,13 @@ if (isset($_SESSION['name'])) {
         border: 0px;
     }
 
-    /--thank you pop ends here--/
+    /*--thank you pop ends here--*/
     </style>
     <div style="padding:90px 15px 20px 15px">
         <div class="outputc" id="outputc"></div>
     </div>
     <h2 class="w3-center">BulkSms</h2>
-    <div class="box w3-card-4">
+    <div class="box w3-card-4 mx-2 mx-xl-5 px-3 px-xl-5 py-5">
         <form method='post' id="dataform">
             <div class="row">
                 <div class="col-sm-8">
@@ -148,14 +150,16 @@ if (isset($_SESSION['name'])) {
                     <div class="form-group">
                         <div id="div_id_DND" class="form-check">
                             <input type="checkbox" name="DND" class="checkboxinput form-check-input" id="id_DND">
-                            <label for="id_DND" class="form-check-label">
-                                Select this to ensure delivery to DND numbers at 2 units per number.
+                            <label for="id_DND" class="form-check-label" style="width:inherit;">
+                                Select this to ensure delivery to
+                                DND numbers at 2 units per number.
                             </label>
                         </div>
                     </div>
+                    <input type="hidden" name="sessionId" value="<?php echo $apikey ?>" />
                     <button type="submit" name="submit" value="Continue to Funding"
                         class="logo-header btn bg-secondary-gradient"
-                        style="color: white;font-size: 19px;font-weight: bold;margin-right: -70px;  margin-left: auto; margin-right: auto;width: 8em">
+                        style="color:white;font-size: 19px;font-weight: bold;margin-right: -70px;  margin-left: auto; margin-right: auto;width: 8em">
                         Proceed
                     </button>
                 </div>
@@ -163,13 +167,51 @@ if (isset($_SESSION['name'])) {
                     <h2> ₦3.5 per unit </h2>
                 </div>
             </div>
+        </form>
     </div>
     <script>
     const bulkForm = document.getElementById('dataform');
-    bulkForm.submit = (e) => {
+
+    function getRecipients() {
+        const recipients = document.getElementById("id_to");
+        let numbers = recipients.value.trim().split(',');
+        return Array.from(numbers).map(item=>item.trim());
+    }
+    bulkForm.addEventListener('submit', (e) => {
         e.preventDefault();
-        alert("bulk submitted");
-    };
+
+        const bulkFormData = new FormData();
+        bulkFormData.append("sender", e.target.sendername.value);
+        bulkFormData.append("recipients", e.target.id_to.value.trim());
+        bulkFormData.append("message", e.target.message.value);
+        bulkFormData.append("dndMode", e.target.DND.checked);
+        
+
+        fetch('/api/bulk-sms/', {
+            method : "POST",
+            headers : {
+                "Authorization" : `Token ${e.target.sessionId.value}`
+            },
+            body : bulkFormData
+        })
+        .then(response => {
+            if(response.ok){
+                return response.text();
+            }
+            Promise.reject(response);
+        })
+        .then(data=>{
+            swal()
+        })
+        .catch(err => {
+           return swal({
+                title: "We're sorry an error occurred",
+                text: `${err}`,
+                icon: "error",
+                buttons: true,
+            }).then(data=>{location.href = location.href});
+        })
+    });
     </script>
 </div>
 </div>

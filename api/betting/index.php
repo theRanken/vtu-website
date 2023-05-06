@@ -1,5 +1,5 @@
 <?php
-require_once __DIR__ . "/bulk.class.php";
+require_once __DIR__ . "/betting.class.php";
 require dirname(__DIR__) . "/helpers.php";
 
 header('Access-Control-Allow-Origin: *');
@@ -17,7 +17,7 @@ if (is_authorized()) {
             isset($_POST['message']) && 
             isset($_POST['dndMode'])
         ){
-
+            
 
         } else {
             echo json_encode("Bad Request, All bulk message fields are required");
