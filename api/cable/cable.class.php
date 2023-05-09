@@ -165,8 +165,8 @@ class CableTv
 
     public static function request_id()
     {
-        $randString = strtoupper(substr(uniqid(), 0, 8));
         date_default_timezone_set("Africa/Lagos");
+        $randString = strtoupper(substr(uniqid(), 0, 8));
         $date = date('Ymdhm');
         $id = $date . $randString;
 

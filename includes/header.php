@@ -102,6 +102,7 @@
     <link rel="stylesheet" href="../static/dashboard/assets/css/w3.css">
     <link rel="stylesheet" href="../static/dashboard/assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="../static/dashboard/assets/css/atlantis.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 
 <body data-background-color="bg3" onload="if(typeof greet === 'function' && typeof alertinfo === 'function'){greet(); alertinfo();}">

@@ -36,11 +36,15 @@ class BaseApiClient
 
     private function setAuthType(array $options)
     {
-        if($options['auth_type']== 'api'){
-             $this->auth = (object) [
-                "public" => trim($this->settings->vt_public_key),
-                "secret" => trim($this->settings->vt_secret_key)
-            ]; 
+        if(isset($options['auth_type'])){
+            if($options['auth_type'] === 'api'){
+                $this->auth = (object) [
+                    "public" => trim($this->settings->vt_public_key),
+                    "secret" => trim($this->settings->vt_secret_key)
+                ];
+            }else{
+                throw new Exception("Your 'auth_type' option is supposed to be set to 'api' if you want to use api keys");
+            } 
         }else{
             $this->auth = (object) [
                 "username" => trim($this->settings->vt_username),
@@ -82,7 +86,7 @@ class BaseApiClient
     {
         $randString = strtoupper(substr(uniqid(), 0, 8));
         date_default_timezone_set("Africa/Lagos");
-        $date = date('Ymdhm');
+        $date = date('YmdHM');
         $id = $date . $randString;
 
         return $id;

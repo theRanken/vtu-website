@@ -50,6 +50,7 @@ window.location.href='newpin.php';</script>";
       #div_id_customer_address,
       #div_id_customer_name {
         display: none;
+        pointer-events: none;
       }
 
       #name {
@@ -126,32 +127,49 @@ window.location.href='newpin.php';</script>";
 
       /*--thank you pop ends here--*/
     </style>
+    <script>
+      window.addEventListener("offline", function(){
+        Swal.fire("Network Disconnected!");
+      })
+    </script>
     <div style="padding:90px 15px 20px 15px">
       <h2 class="w3-center">Electricity Bill Payment</h2>
       <div class="box w3-card-4">
         <form method="post" id='billform' name="billform" data-plans-url="/ajax/load_plans/" novalidate>
           <div class="row">
             <div class="col-sm-8">
-              <input type="hidden" name="csrfmiddlewaretoken"
-                value="Jfm4UM5rVpjdJTjzqDurZPMBoxhxTli1TCC5Dn5iJaAJNRmFQRTdVIgNbrde5Cl0">
+              <input type="hidden" name="session-id" id="session-id" value="<?php echo $user; ?>" >
+              <input type="hidden" name="csrfmiddlewaretoken" value="Jfm4UM5rVpjdJTjzqDurZPMBoxhxTli1TCC5Dn5iJaAJNRmFQRTdVIgNbrde5Cl0">
               <div id="div_id_disco_name" class="form-group">
                 <label for="id_disco_name" class=" requiredField">
-                  Disco name<span class="asteriskField">*</span>
+                  Electricity Distributor Company<span class="asteriskField">*</span>
                 </label>
                 <div class="">
                   <select name="disco_name" class="select form-control" required id="id_disco_name">
-                    <option value="" selected>---------</option>
-                    <option value="1">Ikeja Electric</option>
-                    <option value="2">Eko Electric</option>
-                    <option value="3">Abuja Electric</option>
-                    <option value="4">Kano Electric</option>
-                    <option value="5">Enugu Electric</option>
-                    <option value="6">Port Harcourt Electric</option>
-                    <option value="7">Ibadan Electric</option>
-                    <option value="8">Kaduna Electric</option>
-                    <option value="9">Jos Electric</option>
-                    <option value="10">Benin Electric</option>
-                    <option value="11">Yola Electric</option>
+                    <option value="" selected>-----SELECT ELECTRICITY SERVICE-----</option>
+                    <option value="ikeja-electric">Ikeja Electric</option>
+                    <option value="eko-electric">Eko Electric</option>
+                    <option value="abuja-electric">Abuja Electric</option>
+                    <option value="kano-electric">Kano Electric</option>
+                    <option value="enugu-electric">Enugu Electric</option>
+                    <option value="portharcourt-electric">Port Harcourt Electric</option>
+                    <option value="ibadan-electric">Ibadan Electric</option>
+                    <option value="kaduna-electric">Kaduna Electric</option>
+                    <option value="jos-electric">Jos Electric</option>
+                    <option value="benin-electric">Benin Electric</option>
+                    <option value="yola-electric">Yola Electric</option>
+                  </select>
+                </div>
+              </div>
+              <div id="div_id_MeterType" class="form-group">
+                <label for="id_MeterType" class=" requiredField">
+                  MeterType<span class="asteriskField">*</span>
+                </label>
+                <div class="">
+                  <select name="MeterType" class="select form-control" required id="id_MeterType">
+                    <option value="" selected>-----SELECT METER TYPE-----</option>
+                    <option value="prepaid">Prepaid</option>
+                    <option value="postpaid">Postpaid</option>
                   </select>
                 </div>
               </div>
@@ -162,18 +180,6 @@ window.location.href='newpin.php';</script>";
                 <div class="">
                   <input type="text" name="meter_number" maxlength="30" class="textinput textInput form-control"
                     id="id_meter_number">
-                </div>
-              </div>
-              <div id="div_id_MeterType" class="form-group">
-                <label for="id_MeterType" class=" requiredField">
-                  MeterType<span class="asteriskField">*</span>
-                </label>
-                <div class="">
-                  <select name="MeterType" class="select form-control" required id="id_MeterType">
-                    <option value="" selected>---------</option>
-                    <option value="Prepaid">Prepaid</option>
-                    <option value="Postpaid">Postpaid</option>
-                  </select>
                 </div>
               </div>
               <div id="div_id_customer_name" class="form-group">
@@ -225,6 +231,7 @@ window.location.href='newpin.php';</script>";
   </div>
   </div>
   </div>
+  <script src="./javascript/electricity-bill.js"></script>
   <?php include '../includes/footer.php'; ?>
   <?php if ($min > $bal) { ?>
     ?>

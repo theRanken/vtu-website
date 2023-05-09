@@ -75,7 +75,7 @@ function get_token()
 function is_verified(int|string $unique_id): bool
 {
     global $con;
-    $get_verified_user = $con->query("SELECT * FROM user WHERE apiKey='$unique_id' AND status='1'");
+    $get_verified_user = $con->query("SELECT * FROM user WHERE apiKey='$unique_id' OR email='$unique_id' OR id='$unique_id' OR username='$unique_id' AND status='1'");
     $isVerified = ($get_verified_user->num_rows >= 1) ? true : false;
     return $isVerified;
 }

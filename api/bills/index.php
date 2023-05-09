@@ -20,7 +20,7 @@ if(is_get()){
             echo $details;
             return http_response_code(200);
         } catch (Exception $e) {
-            echo json_encode(["message" => $e->getMessage()]);
+            echo json_encode($e->getMessage());
             return http_response_code(500);
         }        
 
@@ -34,17 +34,33 @@ else if(is_post()){
         $authorization = get_token();
         if (is_verified($authorization)){
             if(
-                isset($_POST['user']) && 
-                isset($_POST['service']) && 
-                isset($_POST['billersCode']) && 
-                isset($_POST['variation']) && 
+                isset($_POST['disco_name']) && 
+                isset($_POST['meter_number']) && 
+                isset($_POST['MeterType']) &&   
                 isset($_POST['amount']) &&   
-                isset($_POST['phone'])
+                isset($_POST['Customer_Phone'])
             ){
+                $user = user($authorization);
 
+                try{
+                    $details = $utility->pay_bill(
+                        $user->username, 
+                        $_POST['disco_name'],
+                        $_POST['meter_number'],
+                        $_POST['MeterType'],
+                        $_POST['amount'],
+                        $_POST['Customer_Phone']
+                    );
 
+                    echo json_encode($details);
+                    return http_response_code(200);
+                }
+                catch(Exception $e){
+                    echo json_encode($e->getMessage() . " [". $e->getFile() . " (Line ".$e->getLine().")]");
+                    return http_response_code(500);
+                }
             } else {
-                echo json_encode("Bad Request, All bulk message fields are required");
+                echo json_encode("Bad Request, All Billing fields are required");
                 return http_response_code(400);
             }
         } else {
