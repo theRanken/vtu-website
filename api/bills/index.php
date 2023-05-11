@@ -56,25 +56,25 @@ else if(is_post()){
                     return http_response_code(200);
                 }
                 catch(Exception $e){
-                    echo json_encode($e->getMessage() . " [". $e->getFile() . " (Line ".$e->getLine().")]");
+                    echo json_encode(["message" => $e->getMessage()]);
                     return http_response_code(500);
                 }
             } else {
-                echo json_encode("Bad Request, All Billing fields are required");
+                echo json_encode(["message" => "Bad Request, All Billing fields are required"]);
                 return http_response_code(400);
             }
         } else {
-            echo json_encode("Sorry You do not have verified access");
+            echo json_encode(["message" => "Sorry You do not have verified access"]);
             return http_response_code(401);
         }
 
     } else {
-        echo json_encode("Sorry you're not authorized to access this resource");
+        echo json_encode(["message" => "Sorry you're not authorized to access this resource"]);
         return http_response_code(401);
     }
 }
 else{
     $method = request_method();
-    echo json_encode("Sorry the '". $method ."' method is not allowed on this endpoint");
+    echo json_encode(["message" => "Sorry the '". $method ."' method is not allowed on this endpoint"]);
     return http_response_code(405);
 }

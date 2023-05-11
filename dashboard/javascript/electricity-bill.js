@@ -50,35 +50,56 @@ function getMeterDetails() {
 });
 
 
-function payElectricBill(){
-    const payUrl = `/api/bills/`;
+// Make a POST request to the payUrl URL.
+const makePayment = async (payUrl, form) => {
+    const headers = {
+        "Authorization": `Token ${sessionID.value}`
+    };
 
-    fetch(payUrl, {
+    const response = await fetch(payUrl, {
         method: 'POST',
-        headers: {
-            "Authorization": `Token ${sessionID.value}`
-        },
-        body: new FormData(billForm)
-    })
-        .then(res => {
-            if(res.ok){
-                return res.text();
-            }
-            return Promise.reject(res.text());            
-        })
-        .then(status => {
-            $.LoadingOverlay("hide");
-            return Swal.fire({
-                icon: 'success',
-                title: 'Transaction Successful',
-                text: status,
-                footer: '<a href="#" class="btn btn-success">View receipt</a>'
-            })
-        })
-        .catch(err => {
-            $.LoadingOverlay("hide");
-            return Swal.fire("Transaction Failed", `${err}`, "error");
-        })
+        headers,
+        body: new FormData(form)
+    });
+
+    if (!response.ok) {
+        const serverResponse = await response.json();
+        console.log(serverResponse.message);
+        throw new Error(`${serverResponse.message}`);
+    }
+
+    const data = await response.json();
+
+    return data;
+};
+
+// Display a success message with a link to the receipt.
+const showSuccessMessage = (data) => {
+    $.LoadingOverlay("hide");
+    Swal.fire({
+        icon: 'success',
+        title: 'Transaction Successful',
+        footer: `<a href="${data.id}" class="btn btn-success">View receipt</a>`
+    });
+};
+
+// Display an error message.
+const showErrorMessage = (err) => {
+    console.log(err);
+    $.LoadingOverlay("hide");
+    Swal.fire("Transaction Failed", `${err}`, "error");
+};
+
+// Make a payment.
+async function pay(){
+    const payUrl = '/api/bills/';
+
+    try {
+        const data = await makePayment(payUrl, billForm);
+        showSuccessMessage(data);
+    } catch (err) {
+        showErrorMessage(err);
+    }
 }
 
 //Fires when the form is submitted
@@ -121,7 +142,7 @@ billForm.addEventListener('submit', function (e) {
                                     }
                                     return Promise.reject("Oops something went wrong, we'll fix this soon enough");
                                 }
-                                payElectricBill();                            
+                                pay();                            
                             })
                             .catch(error => {
                                 $.LoadingOverlay("hide");

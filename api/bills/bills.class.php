@@ -58,10 +58,10 @@ class UtilityBill extends BaseApiClient
         $date = $response['transaction_date']['date'];
         $name = $response['customerName'] ?? "unnamed";
         $phoneNo = $transaction['phone'];
-        $amount = $transaction['total_amount'];
-        $token = $response['token'];
-        $tax = $response['vat'];
-        $units = $response['units'];
+        $amount = $response['amount'] ?? $transaction['total_amount'];
+        $token = $response['token'] ?? $response['mainToken'] ?? $response['Token'];
+        $tax = $response['vat'] ?? $response['Vat'] ?? $response['taxAmount'] ?? $response['mainTokenTax'] ?? "[Empty]";
+        $units = $response['units'] ?? $response['mainTokenUnits'] ?? $response['PurchasedUnits'];
         $tokenAmount = $response['amount'];
         $transactionID = $response['requestId'];
         $product = $transaction['product_name'];
@@ -70,8 +70,8 @@ class UtilityBill extends BaseApiClient
         if (!BaseApiClient::check_balance($amount, $user))
             throw new Exception("Transaction failed due to insufficient balance, topup your wallet and try again");
 
-        $add_utility_bill_transaction =   "INSERT INTO utility_bills (user, name, phone , product ,token, tax, units, token_amount, transaction_id ,  price , created_at,  status ) 
-        VALUES ('$user', '$name', '$phoneNo', '$product','$token', $tax, '$units', '$tokenAmount', '$transactionID', '$amount', '$date', '$transactionStatus' )";
+        $add_utility_bill_transaction =   "INSERT INTO utility_bills (user, name, phone , product ,token, tax, units, token_amount, amount, transaction_id ,created_at,  status ) 
+        VALUES ('$user', '$name', '$phoneNo', '$product','$token', $tax, '$units', '$tokenAmount', '$amount', '$transactionID',  '$date', '$transactionStatus' )";
 
         $bill_transaction = $this->con->query($add_utility_bill_transaction);
 
@@ -80,7 +80,7 @@ class UtilityBill extends BaseApiClient
 
         debit($amount, $user);
         // Retrieve the record
-        $get_cable_transaction = $this->con->query("SELECT * from utility_bills WHERE transid='$transactionID' ");
+        $get_cable_transaction = $this->con->query("SELECT * from utility_bills WHERE transaction_id='$transactionID' ");
         $processed_transaction = $get_cable_transaction->fetch_assoc();
         return json_encode($processed_transaction);
     }
