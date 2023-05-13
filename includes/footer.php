@@ -79,3 +79,11 @@ $footer = $web['footer'];
 		x.parentNode.insertBefore(s, x);
 	})();
 </script>
+<script>
+  window.addEventListener("offline", function(){
+    Swal.fire("Network Disconnected!");
+  })
+  window.addEventListener("online", function(){
+    Swal.fire("Network Back  Online!");
+  })
+</script>

@@ -85,7 +85,6 @@ const showSuccessMessage = (data) => {
 
 // Display an error message.
 const showErrorMessage = (err) => {
-    console.log(err);
     $.LoadingOverlay("hide");
     Swal.fire("Transaction Failed", `${err}`, "error");
 };

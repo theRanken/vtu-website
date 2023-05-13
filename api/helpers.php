@@ -116,6 +116,12 @@ function credit(string|int|float $amount, $user_id)
     return $credit_balance;
 }
 
+function get_account_balance($user){
+    $user = user($user);
+    $balance = $user->bal;
+    return $balance;
+}
+
 function get_mail_setup(): object|array
 {
     global $con;

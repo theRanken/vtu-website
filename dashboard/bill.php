@@ -16,15 +16,6 @@ alert('you have not create a pin please create a transaction pin');
 window.location.href='newpin.php';</script>";
   }
   ?>
-  <?php
-  if (isset($_POST['submit'])) {
-    ?>
-    <script>
-      alert("Our Developers are working on it. please check back later");
-    </script>
-    <?php
-  }
-  ?>
   <?php include '../includes/header.php'; ?>
   <!-- End Sidebar -->
   <div class="main-panel ">
@@ -127,11 +118,6 @@ window.location.href='newpin.php';</script>";
 
       /*--thank you pop ends here--*/
     </style>
-    <script>
-      window.addEventListener("offline", function(){
-        Swal.fire("Network Disconnected!");
-      })
-    </script>
     <div style="padding:90px 15px 20px 15px">
       <h2 class="w3-center">Electricity Bill Payment</h2>
       <div class="box w3-card-4">

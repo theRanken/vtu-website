@@ -30,18 +30,18 @@ else if(is_post()){
         $authorization = get_token();
         if (is_verified($authorization)){
             if(
-                isset($_POST['service']) &&
-                isset($_POST['variation']) &&  
-                isset($_POST['phone'])
+                isset($_POST['exam_name']) &&
+                isset($_POST['quantity']) &&  
+                isset($_POST['amount'])
             ){
                 $user = user($authorization);
-                $service = $_POST['service'];
-                $variation = $_POST['variation'];
-                $phone = $_POST['phone'];
+                $exam_name = $_POST['exam_name'];
+                $quantity = $_POST['quantity'];
+                $amount = $_POST['amount'];
 
                try{
-                    $details = $exam->buy_scratch_card($user, $service, $variation, $phone);
-                    echo $details;
+                    $details = $exam->buy_scratch_card($user->username, $exam_name, $quantity, $amount);
+                    echo json_encode($details);
                     return http_response_code(200);
 
                 }catch(Exception $e){

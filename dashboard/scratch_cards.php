@@ -4,7 +4,8 @@ if (isset($_SESSION['name'])) {
     require_once '../core/conn.php';
     $das = "4";
     $aemail = $web['email'];
-    $sql = mysqli_query($con, "SELECT * FROM user WHERE id = {$_SESSION['id']}");
+    $user = $_SESSION['id'];
+    $sql = mysqli_query($con, "SELECT * FROM user WHERE id = '$user' ");
     if (mysqli_num_rows($sql) > 0) {
         $row = mysqli_fetch_assoc($sql);
     }
@@ -44,20 +45,21 @@ if (isset($_SESSION['name'])) {
         <div style="padding:90px 15px 20px 15px">
             <h2 class="w3-center"> Generate Result Checker Pin</h2>
             <div class="box w3-card-4">
-                <form method='post' id="form_id">
+                <form method='post' id="form_result_checker">
                     <div class="row">
                         <div class="col-sm-8">
                             <input type="hidden" name="csrfmiddlewaretoken" value="CtB4mBGDG8lzUOdghN1NXiyeWIZE2qUgczlu8CUVQ3u5aeLcU2cnoJcDSmG1qe2U">
+                            <input type="hidden" name="sessionID" id="sessionID" value="<?php echo $user ?>">
                             <div id="div_id_exam_name" class="form-group">
                                 <label for="id_exam_name" class=" requiredField">
                                     Exam name<span class="asteriskField">*</span>
                                 </label>
                                 <div class="">
                                     <select name="exam_name" class="select form-control" required id="id_exam_name">
-                                        <option value="" selected>---------</option>
-                                        <option value="WAEC">WAEC</option>
-                                        <option value="NECO">NECO</option>
-                                        <option value="NABTEB">NABTEB</option>
+                                        <option value="" selected>-----SELECT EXAM-----</option>
+                                        <option value="waec">WAEC</option>
+                                        <option value="neco">NECO</option>
+                                        <option value="nabteb">NABTEB</option>
                                     </select>
                                 </div>
                             </div>
@@ -71,8 +73,8 @@ if (isset($_SESSION['name'])) {
                                 </div>
                             </div>
                             <label><b>Amount</b></label>
-                            <p class="control" id="amount"> </p>
-                            <button type="button" class=" btn" style='  color: white;' id="btnsubmit"> Generate</button>
+                            <input class="form-control" id="amount" value="" readonly/>
+                            <button type="button" class="btn" style='color: white;' id="btnsubmit"> Generate</button>
                         </div>
                         <div class="col-sm-4  ">
                         </div>
@@ -85,156 +87,172 @@ if (isset($_SESSION['name'])) {
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script>
+
+        async function getInfo(serviceID){
+            const url = `/api/exam/?service=${serviceID}`;
+
+            const response = await fetch(url);
+
+            if (!response.ok) {
+                const serverResponse = await response.json();
+                throw new Error(`${serverResponse}`);
+            }
+
+            const data = await response.json();
+
+            return data;
+        }
         $(document).ready(function () {
-            $("#id_exam_name").change(function () {
+            $("#id_exam_name").change(async function () {
                 var selectednetwork = $("#id_exam_name option:selected").val();
                 var quantity = $("#id_quantity").val();
-                if (selectednetwork == "WAEC") {
-                    $("#amount").text("₦" + quantity * Number('<?= $waec; ?>'));
+
+                 
+                let cardAmount = {};
+                try{
+                   cardAmount = await getInfo(selectednetwork);
+                   $("#amount").val("₦" + quantity * Number(cardAmount.variation_amount));
+                }catch(error){
+                    Swal.fire({
+                        icon: 'error',
+                        title:"Error",
+                        text:`Oops! ${error}` 
+                    })
                 }
-                else if (selectednetwork == "NECO") {
-                    $("#amount").text("₦" + quantity * Number('<?= $neco; ?>'));
-                }
-                else if (selectednetwork == "NABTEB") {
-                    $("#amount").text("₦" + quantity * Number('<?= $nabteb; ?>'));
-                }
+                    
             });
-            $("#id_quantity").keyup(function () {
+            $("#id_quantity").keyup(async function(){
                 //var selectednetwork = $(this).children("option:selected").val();
                 var selectednetwork = $("#id_exam_name option:selected").val();
                 var quantity = $("#id_quantity").val();
-                console.log(quantity)
-                console.log(selectednetwork)
                 if (quantity > 5) {
                     $("#amount").text("Maximum per is 5");
                 }
-                else if (selectednetwork == "WAEC") {
-                    $("#amount").text("₦" + quantity * Number('<?= $waec; ?>'));
-                }
-                else if (selectednetwork == "NECO") {
-                    $("#amount").text("₦" + quantity * Number('<?= $neco; ?>'));
-                }
-                else if (selectednetwork == "NABTEB") {
-                    $("#amount").text("₦" + quantity * Number('<?= $nabteb; ?>'));
-                }
+
+                let cardAmount = {};
+                try{
+                   cardAmount = await getInfo(selectednetwork);
+                   $("#amount").val("₦" + quantity * Number(cardAmount.variation_amount));
+                }catch(error){
+                    Swal.fire({
+                        icon: 'error',
+                        title:"Error",
+                        text:`Oops! ${error}` 
+                    })
+                }                
             });
         });
     </script>
     <script>
-        $("#btnsubmit").click(function () {
+        $("#btnsubmit").click(function(){
             var url = "/api/epin/"; // get the url of the `load_cities` view
             var exam_name = $("#id_exam_name").val(); // get the selected country ID from the HTML input
             var quantity = $("#id_quantity").val();
+            var amount =    $("#amount").val()
             var token = 'CtB4mBGDG8lzUOdghN1NXiyeWIZE2qUgczlu8CUVQ3u5aeLcU2cnoJcDSmG1qe2U';
-            swal(
-                {
-                    title: 'Dear Adex',
-                    text: "Are you sure you want to Generate " + " " + quantity + " pieces of " + exam_name + "   Pin",
-                    icon: 'warning',
-                    buttons: ["Oh no!", "Yes"],
-                    dangerMode: true,
-                }
-            ).then((willDelete) => {
+            var sessionID = document.getElementById('sessionID');
+            var resultCheckerForm = document.getElementById('form_result_checker').elements;
+
+            if(exam_name == "" && quantity == "" && amount == ""){
+                return swal("All fields are required!");
+            }
+
+            swal({
+                title: 'Dear Adex',
+                text: "Are you sure you want to generate " + " " + quantity + " pieces of " + exam_name + "   pin",
+                icon: 'warning',
+                buttons: true,
+                dangerMode: true
+            }).then((willDelete) => {
                 if (willDelete) {
                     //start
                     swal("Enter Your Pin:", {
                         content: "input",
                     })
-                        .then((value) => {
-                            $.ajax({
-                                type: 'GET',
-                                dataType: 'json',
-                                cache: false,
-                                contentType: false,
-                                processData: false,
-                                beforeSend: function () {
-                                    $.LoadingOverlay("show");
-                                },
-                                url: "/api/checkpin?pin=" + value,
-                                headers: { "X-CSRFToken": token },
-                                error: function (XMLHttpRequest, textStatus, errorThrown) {
-                                    $.LoadingOverlay("hide");
-                                    console.log(errorThrown)
-                                    if (String(JSON.parse(XMLHttpRequest.status)) == 500) {
-                                        swal("Oops!", "Something went wrong please contact admin ", "error")
-                                    }
-                                    else if (JSON.parse(XMLHttpRequest.responseText).error) {
-                                        swal("Oops!", String(JSON.parse(XMLHttpRequest.responseText).error), "error")
-                                    }
-                                    else {
-                                        swal("Oops!", String(XMLHttpRequest.responseText), "error")
-                                    }
-                                },
-                                success: function (data) {
-                                    $.ajax({
-                                        type: 'POST',
-                                        dataType: 'json',
-                                        contentType: "application/json",
-                                        beforeSend: function () {
-                                            $.LoadingOverlay("show");
-                                        }, // initialize an AJAX request
-                                        url: url,
-                                        headers: { "X-CSRFToken": token },
-                                        data: JSON.stringify({
-                                            "exam_name": exam_name,
-                                            "quantity": quantity,
-                                        }),
-                                        success: function (data) {
-                                            console.log(data);
-                                            console.log(data.id);
-                                            swal({
-                                                title: "Successful!",
-                                                text: "You purchased " + quantity + ' pieces of ' + exam_name + " Epin ",
-                                                icon: "success",
-                                                button: "View reciept",
-                                            })
-                                            $('.swal-button--confirm').click(function () {
-                                                $.ajax({
-                                                    beforeSend: function () {
-                                                        $.LoadingOverlay("show");
-                                                    },
-                                                    success: window.location.href = '/Result-Checker-Pin-order/' + String(data.id)
-                                                });
-                                            });
-                                        },
-                                        error: function (XMLHttpRequest, textStatus, errorThrown) {
-                                            $.LoadingOverlay("hide");
-                                            console.log(errorThrown)
-                                            if (String(JSON.parse(XMLHttpRequest.status)) == 500) {
-                                                swal("Oops!", "Something went wrong please contact admin ", "error")
-                                            }
-                                            else if (JSON.parse(XMLHttpRequest.responseText).error) {
-                                                swal("Oops!", String(JSON.parse(XMLHttpRequest.responseText).error), "error")
-                                            }
-                                            else {
-                                                swal("Oops!", String(XMLHttpRequest.responseText), "error")
-                                            }
-                                        },
-                                        complete: function () {
-                                            $.LoadingOverlay("hide")
-                                        }
-                                    });
-                                },
-                                error: function (XMLHttpRequest, textStatus, errorThrown) {
-                                    $.LoadingOverlay("hide");
-                                    console.log(textStatus)
-                                    if (String(JSON.parse(XMLHttpRequest.status)) == 500) {
-                                        swal("Oops!", "Something went wrong please contact admin ", "error")
-                                    }
-                                    else {
-                                        var parsed_data = JSON.parse(XMLHttpRequest.responseText);
-                                        swal("Oops!", String(parsed_data.error), "error")
-                                    }
-                                },
-                                complete: function () {
-                                    $.LoadingOverlay("hide");
+                    .then((value) => {
+                        $.ajax({
+                            type: 'GET',
+                            dataType: 'json',
+                            cache: false,
+                            contentType: false,
+                            processData: false,
+                            beforeSend: () => $.LoadingOverlay("show"),
+                            url: `/api/checkpin.php?pin=${value}&user=${sessionID.value}`,
+                            headers: { "X-CSRFToken": token },
+                            error: function (XMLHttpRequest, textStatus, errorThrown) {
+                                $.LoadingOverlay("hide");
+                                console.log(errorThrown)
+                                if (String(JSON.parse(XMLHttpRequest.status)) == 500) {
+                                    swal("Oops!", String(XMLHttpRequest.responseText), "error")
                                 }
-                            });
+                                else if (JSON.parse(XMLHttpRequest.responseText).error) {
+                                    swal("Oops!", String(JSON.parse(XMLHttpRequest.responseText).error), "error")
+                                }
+                                else {
+                                    swal("Oops!", String(XMLHttpRequest.responseText), "error")
+                                }
+                            },
+                            success: function(data){
+                                $.ajax({
+                                    type: 'POST',
+                                    beforeSend: () => $.LoadingOverlay("show"), // initialize an AJAX request
+                                    url: "/api/exam/",
+                                    headers: {
+                                         "Authorization": `Token ${sessionID.value}` 
+                                    },
+                                    data: {
+                                        "exam_name": resultCheckerForm.exam_name.value,
+                                        "quantity" : resultCheckerForm.quantity.value,
+                                        "amount" : resultCheckerForm.amount.value.replace("₦","")
+                                    },
+                                    success: function (data){
+                                        swal({
+                                            title: "Successful!",
+                                            text: "You purchased " + quantity + ' pieces of ' + exam_name + " Epin ",
+                                            icon: "success",
+                                            button: "View reciept",
+                                        })
+                                        $('.swal-button--confirm').click(function () {
+                                            $.ajax({
+                                                beforeSend: () => $.LoadingOverlay("show"),
+                                                success: window.location.href = 'result-checker-pin.php?id=' + String(data.id)
+                                            });
+                                        });
+                                    },
+                                    error: function (XMLHttpRequest, textStatus, errorThrown) {
+                                        $.LoadingOverlay("hide");
+                                        console.log(errorThrown)
+                                        if (String(JSON.parse(XMLHttpRequest.status)) == 500) {
+                                            swal("Oops!", "Something went wrong please contact admin ", "error")
+                                        }
+                                        else if (JSON.parse(XMLHttpRequest.responseText).error) {
+                                            swal("Oops!", String(JSON.parse(XMLHttpRequest.responseText).error), "error")
+                                        }
+                                        else {
+                                            swal("Oops!", String(XMLHttpRequest.responseText), "error")
+                                        }
+                                    },
+                                    complete: () => $.LoadingOverlay("hide")
+                                });
+                            },
+                            error: function (XMLHttpRequest, textStatus, errorThrown) {
+                                $.LoadingOverlay("hide");
+                                console.log(textStatus)
+                                if (String(JSON.parse(XMLHttpRequest.status)) == 500) {
+                                    swal("Oops!", "Something went wrong please contact admin ", "error")
+                                }
+                                else {
+                                    var parsed_data = JSON.parse(XMLHttpRequest.responseText);
+                                    swal("Oops!", String(parsed_data.error), "error")
+                                }
+                            },
+                            complete: () => $.LoadingOverlay("hide")
                         });
-                    //end
+                    });
+                //end
                 }
                 else {
-                    swal("you pressed cancel ");
+                    swal("Cancelled!");
                 }
             });
         });
@@ -256,9 +274,7 @@ if (isset($_SESSION['name'])) {
             });
         </script>
     <?php } else { ?>
-    <?php }
-    exit;
-    ?>
+    <?php exit; } ?>
     <?php if ($min > $bal) { ?>
         <script>
             $(document).ready(function () {
@@ -273,15 +289,12 @@ if (isset($_SESSION['name'])) {
             });
         </script>
     <?php } else { ?>
-    <?php }
-    exit;
-    ?>
+    <?php  exit; }?>
     </body>
     </html>
-    <?php
+<?php
 } else {
     echo "<script>document.location.href='logout.php'; </script>";
     exit;
 }
 ?>
-</html>
