@@ -15,6 +15,7 @@ $network = null;
 $phone = null;
 $ported_number = null;
 $plan = null;
+
 if (isset($headers["network"])) 
     $network = trim($headers["network"]);
 
@@ -55,10 +56,7 @@ if (isset($headers["Authorization"])) {
         //check user deitals
 
         //check the plan id if is correct
-        $query_com = mysqli_query(
-            $con,
-            "SELECT * FROM plans WHERE  customid='$plan'"
-        );
+        $query_com = mysqli_query($con,"SELECT * FROM plans WHERE  customid='$plan'");
         $rate = mysqli_num_rows($query_com);
         if ($rate == 1) {
             while ($data_plan = mysqli_fetch_array($query_com)) {
@@ -69,10 +67,7 @@ if (isset($headers["Authorization"])) {
                 $data_type = $data_plan["type"];
             }
             //let check if the network id is correct
-            $adex_network = mysqli_query(
-                $con,
-                "SELECT * FROM networkid WHERE networkid='$network'"
-            );
+            $adex_network = mysqli_query($con, "SELECT * FROM networkid WHERE networkid='$network'");
             $check_network = mysqli_num_rows($adex_network);
             if ($check_network == 1) {
                 while ($elijah_network = mysqli_fetch_array($adex_network)) {
@@ -95,55 +90,34 @@ if (isset($headers["Authorization"])) {
                             } else {
                                 header("HTTP/1.0 403 unauthorised");
                                 $response["status"] = "fail";
-                                $response[
-                                    "msg"
-                                ] = "$network_name $data_type is not avialable now please try again later";
+                                $response["msg"] = "$network_name $data_type is not avialable now please try again later";
                             }
                             //mtn sme data
-                        } elseif (
-                            $network_name == "MTN" &&
-                            $data_type == "SME"
-                        ) {
+                        } elseif ($network_name == "MTN" && $data_type == "SME") {
                             if ($mtn_vtu == "on") {
+                                // do something
                             } else {
                                 header("HTTP/1.0 403 unauthorised");
                                 $response["status"] = "fail";
-                                $response[
-                                    "msg"
-                                ] = "$network_name $data_type is not avialable now please try again later";
+                                $response["msg"] = "$network_name $data_type is not avialable now please try again later";
                             }
-                        } elseif (
-                            $network_name == "AIRTEL" &&
-                            $airtel_data == "off"
-                        ) {
+                        } elseif ($network_name == "AIRTEL" && $airtel_data == "off") {
                             header("HTTP/1.0 403 unauthorised");
                             $response["status"] = "fail";
-                            $response[
-                                "msg"
-                            ] = "$network_name $data_type is not avialable now please try again later";
+                            $response["msg"] = "$network_name $data_type is not avialable now please try again later";
                             $adex_restlt = "false";
                             //glo data
-                        } elseif (
-                            $network_name == "GLO" &&
-                            $glo_data == "off"
-                        ) {
+                        } elseif ($network_name == "GLO" && $glo_data == "off") {
                             header("HTTP/1.0 403 unauthorised");
                             $response["status"] = "fail";
-                            $response[
-                                "msg"
-                            ] = "$network_name $data_type is not avialable now please try again later";
+                            $response["msg"] = "$network_name $data_type is not avialable now please try again later";
                             $adex_restlt = "false";
-                            // 9mobil data
+                            // 9mobile data
                             //checking if is ported number or not
-                        } elseif (
-                            $network_name == "9MOBILE" &&
-                            $mobile == "off"
-                        ) {
+                        } elseif ($network_name == "9MOBILE" && $mobile == "off") {
                             header("HTTP/1.0 403 unauthorised");
                             $response["status"] = "fail";
-                            $response[
-                                "msg"
-                            ] = "$network_name $data_type is not avialable now please try again later";
+                            $response["msg"] = "$network_name $data_type is not avialable now please try again later";
 
                             $adex_restlt = "false";
                         }
@@ -151,60 +125,40 @@ if (isset($headers["Authorization"])) {
                             $validate = substr($phone, 0, 4);
                             if ($network_name == "MTN") {
                                 if (
-                                    strpos(
-                                        " 0702 0703 0713 0704 0706 0716 0802 0803 0806 0810 0813 0814 0816 0903 0913 0906 0916 0804 ",
-                                        $validate
-                                    ) == false ||
+                                    strpos(" 0702 0703 0713 0704 0706 0716 0802 0803 0806 0810 0813 0814 0816 0903 0913 0906 0916 0804 ", $validate) == false ||
                                     strlen($phone) != 11
-                                ) {
+                                ){
                                     header("HTTP/1.0 403 planid required");
-                                    $response[
-                                        "msg"
-                                    ] = "This number is not an $network_name Number => $phone";
+                                    $response["msg"] = "This number is not an $network_name Number => $phone";
 
                                     $adex_restlt = "false";
                                 }
                             } elseif ($network_name == "GLO") {
                                 if (
-                                    strpos(
-                                        " 0805 0705 0905 0807 0907 0707 0817 0917 0717 0715 0815 0915 0811 0711 0911 ",
-                                        $validate
-                                    ) == false ||
+                                    strpos(" 0805 0705 0905 0807 0907 0707 0817 0917 0717 0715 0815 0915 0811 0711 0911 ", $validate) == false ||
                                     strlen($phone) != 11
-                                ) {
+                                ){
                                     header("HTTP/1.0 403 planid required");
-                                    $response[
-                                        "msg"
-                                    ] = "This number is not an $network_name Number => $phone";
+                                    $response["msg"] = "This number is not an $network_name Number => $phone";
 
                                     $adex_restlt = "false";
                                 }
                             } elseif ($network_name == "AIRTEL") {
                                 if (
-                                    strpos(
-                                        " 0904 0802 0902 0702 0808 0908 0708 0918 0818 0718 0812 0912 0712 0801 0701 0901 0907 0917 ",
-                                        $validate
-                                    ) == false ||
+                                    strpos(" 0904 0802 0902 0702 0808 0908 0708 0918 0818 0718 0812 0912 0712 0801 0701 0901 0907 0917 ", $validate) == false ||
                                     strlen($phone) != 11
-                                ) {
+                                ){
                                     header("HTTP/1.0 403 planid required");
-                                    $response[
-                                        "msg"
-                                    ] = "This number is not an $network_name Number => $phone";
+                                    $response["msg"] = "This number is not an $network_name Number => $phone";
                                 }
                             } elseif ($network_name == "9MOBILE") {
                                 if (
-                                    strpos(
-                                        " 0809 0909 0709 0819 0919 0719 0817 0917 0717 0718 0918 0818 0808 0708 0908 ",
-                                        $validate
-                                    ) == false ||
+                                    strpos(" 0809 0909 0709 0819 0919 0719 0817 0917 0717 0718 0918 0818 0808 0708 0908 ", $validate) == false ||
                                     strlen($phone) != 11
-                                ) {
+                                ){
                                     header("HTTP/1.0 403 planid required");
                                     $adex_restlt = "false";
-                                    $response[
-                                        "msg"
-                                    ] = "This number is not an $network_name Number => $phone";
+                                    $response["msg"] = "This number is not an $network_name Number => $phone";
                                 }
                             }
                         }
@@ -227,11 +181,7 @@ if (isset($headers["Authorization"])) {
                                     if ($adex_restlt == "true") {
                                         $doupt = mysqli_query(
                                             $con,
-                                            "UPDATE user set bal='" .
-                                                $debit .
-                                                "' WHERE email='" .
-                                                $email .
-                                                "'"
+                                            "UPDATE user set bal='" . $debit ."' WHERE email='" . $email ."'"
                                         );
                                         if ($doupt) {
                                             require_once "../../core/api.php";
@@ -245,13 +195,13 @@ if (isset($headers["Authorization"])) {
                                                 CURLOPT_FOLLOWLOCATION => true,
                                                 CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
                                                 CURLOPT_CUSTOMREQUEST => "POST",
-                                                CURLOPT_POSTFIELDS =>'{"network": ' . $network_id . ',"phone": "' .$phone . '","bypass": false,"request-id": ' . $transid56 . ',"data_plan": ' . $data_id . ' }',
-
+                                                CURLOPT_POSTFIELDS =>'{"network": ' . $network_id . ',"phone": "' .$phone . '", "bypass": false, "request-id": ' . $transid56 . ', "data_plan": ' . $data_id . ' }',
                                                 CURLOPT_HTTPHEADER => [
                                                     "Authorization: Token  " . $data_api_secret,
                                                     "Content-Type: application/json",
                                                 ],
                                             ]);
+
                                             $dataapi = curl_exec($curl);
                                             $result = json_decode($dataapi);
                                             curl_close($curl);
@@ -270,20 +220,15 @@ if (isset($headers["Authorization"])) {
                                                 $mail->IsSMTP();
                                                 $mail->SMTPAuth = true;
                                                 $mail->SMTPSecure = "ssl";
-                                                $mail->Host = (string) $hosts;
+                                                $mail->Host = $hosts;
                                                 $mail->Port = 465;
-                                                $mail->Username = (string) $musername;
-                                                $mail->Password = (string) $mpassword;
+                                                $mail->Username = $musername;
+                                                $mail->Password = $mpassword;
                                                 $mail->IsHTML(true);
-                                                $mail->setFrom(
-                                                    (string) $sender
-                                                );
-                                                $mail->addAddress(
-                                                    (string) $adminemail
-                                                );
+                                                $mail->setFrom($sender);
+                                                $mail->addAddress($adminemail);
                                                 $mail->isHTML(true);
-                                                $mail->Subject =
-                                                    "Data Transaction";
+                                                $mail->Subject = "Data Transaction";
                                                 $mail->Body = $temp;
                                                 if (!$mail->send()) {
                                                     //I left this blank because i don't want anything to pop out on the ui again
@@ -293,45 +238,20 @@ if (isset($headers["Authorization"])) {
                                                     // echo "<script> alert('email was sent');</script>";
                                                 }
 
-                                                $response["amount"] = strval(
-                                                    $data_price
-                                                );
-                                                $response["transid"] = strval(
-                                                    $transid
-                                                );
-                                                $response["date"] = strval(
-                                                    $date
-                                                );
-                                                $response["newbal"] = strval(
-                                                    $debit
-                                                );
-                                                $response["oldbal"] = strval(
-                                                    $blc
-                                                );
-                                                $response[
-                                                    "mobile_number"
-                                                ] = strval($phone);
-                                                $response["plan_name"] = strval(
-                                                    $data_name
-                                                );
-                                                $response["plan_type"] = strval(
-                                                    $data_type
-                                                );
-                                                $response["network"] = strval(
-                                                    $network_name
-                                                );
-                                                $response["status"] =
-                                                    "successful";
+                                                $response["amount"] = strval($data_price);
+                                                $response["transid"] = strval($transid);
+                                                $response["date"] = strval($date);
+                                                $response["newbal"] = strval($debit);
+                                                $response["oldbal"] = strval($blc);
+                                                $response["mobile_number"] = strval($phone);
+                                                $response["plan_name"] = strval($data_name);
+                                                $response["plan_type"] = strval($data_type);
+                                                $response["network"] = strval($network_name);
+                                                $response["status"] = "successful";
                                             } else {
                                                 $fund = $debit + $data_price;
-                                                $doupt_fund = mysqli_query(
-                                                    $con,
-                                                    "UPDATE user set bal='$fund' WHERE email='$email'"
-                                                );
-                                                $query = mysqli_query(
-                                                    $con,
-                                                    "INSERT INTO transactions (username,transid,network,service,type,amount,mobile,plans,status,date,oldbal,newbal) VALUES('$username','$transid','$network_name','$service','$data_type','$data_price','$phone','$data_name','0','$date','$blc','$fund') "
-                                                );
+                                                $doupt_fund = mysqli_query($con, "UPDATE user set bal='$fund' WHERE email='$email'");
+                                                $query = mysqli_query( $con, "INSERT INTO transactions (username,transid,network,service,type,amount,mobile,plans,status,date,oldbal,newbal) VALUES('$username','$transid','$network_name','$service','$data_type','$data_price','$phone','$data_name','0','$date','$blc','$fund') ");
 
                                                 require_once "mail.php";
                                                 @require "../../Mail/phpmailer/PHPMailerAutoload.php";
@@ -344,20 +264,13 @@ if (isset($headers["Authorization"])) {
                                                 $mail->SMTPSecure = "ssl";
                                                 $mail->Host = strval($hosts);
                                                 $mail->Port = 465;
-                                                $mail->Username = strval(
-                                                    $musername
-                                                );
-                                                $mail->Password = strval(
-                                                    $mpassword
-                                                );
+                                                $mail->Username = strval($musername);
+                                                $mail->Password = strval($mpassword);
                                                 $mail->IsHTML(true);
                                                 $mail->setFrom(strval($sender));
-                                                $mail->addAddress(
-                                                    strval($adminemail)
-                                                );
+                                                $mail->addAddress(strval($adminemail));
                                                 $mail->isHTML(true);
-                                                $mail->Subject =
-                                                    "Fail Data Transaction";
+                                                $mail->Subject = "Fail Data Transaction";
                                                 $mail->Body = $temp;
                                                 if (!$mail->send()) {
                                                     //I left this blank because i don't want anything to pop out on the ui again
@@ -367,33 +280,15 @@ if (isset($headers["Authorization"])) {
                                                     // echo "<script> alert('email was sent');</script>";
                                                 }
 
-                                                $response["amount"] = strval(
-                                                    $data_price
-                                                );
-                                                $response["transid"] = strval(
-                                                    $transid
-                                                );
-                                                $response["date"] = strval(
-                                                    $date
-                                                );
-                                                $response["newbal"] = strval(
-                                                    $fund
-                                                );
-                                                $response["oldbal"] = strval(
-                                                    $blc
-                                                );
-                                                $response[
-                                                    "mobile_number"
-                                                ] = strval($phone);
-                                                $response["plan_name"] = strval(
-                                                    $data_name
-                                                );
-                                                $response["plan_type"] = strval(
-                                                    $data_type
-                                                );
-                                                $response["network"] = strval(
-                                                    $network_name
-                                                );
+                                                $response["amount"] = strval($data_price);
+                                                $response["transid"] = strval($transid);
+                                                $response["date"] = strval($date);
+                                                $response["newbal"] = strval($fund);
+                                                $response["oldbal"] = strval($blc);
+                                                $response["mobile_number"] = strval($phone);
+                                                $response["plan_name"] = strval($data_name);
+                                                $response["plan_type"] = strval($data_type);
+                                                $response["network"] = strval($network_name);
                                                 $response["status"] = "fail";
                                             }
                                         } else {

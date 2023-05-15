@@ -126,8 +126,8 @@ function get_mail_setup(): object|array
 {
     global $con;
     $mail = $con->query("SELECT * from mail");
-    $settings = $mail->fetch_object();
-    return $settings;
+    $mail_setup = $mail->fetch_object();
+    return $mail_setup;
 }
 
 function get_template(string $filename, array $params): string
@@ -136,7 +136,7 @@ function get_template(string $filename, array $params): string
     return $template->render($filename, $params);
 }
 
-function send_mail(string $subject, string $to, string $body)
+function send_email(string $subject, string $to, string $body)
 {
     $settings = get_mail_setup();
     date_default_timezone_set('Africa/Lagos');
@@ -145,23 +145,21 @@ function send_mail(string $subject, string $to, string $body)
     $mail = new PHPMailer();
     $mail->CharSet = "UTF-8";
     $mail->IsSMTP();
-    $mail->SMTPAuth = true;
-    $mail->SMTPSecure = "ssl";
     $mail->Host = $settings->host;
-    $mail->Port = 465;
+    $mail->SMTPAuth = true;
     $mail->Username = $settings->username;
     $mail->Password = $settings->password;
-    $mail->IsHTML(true);
+    $mail->SMTPSecure = $settings->mail_auth_type;
+    $mail->Port = $settings->port;
     $mail->setFrom($settings->sender);
     $mail->addAddress($to);
-    $mail->isHTML(true);
     $mail->Subject = $subject;
     $mail->Body = $body;
-    if (!$mail->send()) {
-        return false;
-    }
-    return true;
+    $mail->AltBody = $body;
+    
+    $didSend = $mail->send();
 
+    return $didSend;
 }
 
 function is_cable_locked(string $service)
