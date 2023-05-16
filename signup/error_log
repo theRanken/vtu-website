@@ -1,0 +1,156 @@
+[20-Feb-2022 21:31:04 Africa/Lagos] PHP Notice:  Undefined variable: conn in /home/afrovib1/Dataplan.com.ng/signup/index.php on line 29
+[20-Feb-2022 21:31:04 Africa/Lagos] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/afrovib1/Dataplan.com.ng/signup/index.php on line 29
+[20-Feb-2022 21:31:04 Africa/Lagos] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/afrovib1/Dataplan.com.ng/signup/index.php on line 30
+[20-Feb-2022 21:31:04 Africa/Lagos] PHP Notice:  Trying to access array offset on value of type null in /home/afrovib1/Dataplan.com.ng/signup/index.php on line 31
+[20-Feb-2022 21:31:05 Africa/Lagos] PHP Notice:  Undefined variable: conn in /home/afrovib1/Dataplan.com.ng/signup/index.php on line 29
+[20-Feb-2022 21:31:05 Africa/Lagos] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/afrovib1/Dataplan.com.ng/signup/index.php on line 29
+[20-Feb-2022 21:31:05 Africa/Lagos] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/afrovib1/Dataplan.com.ng/signup/index.php on line 30
+[20-Feb-2022 21:31:05 Africa/Lagos] PHP Notice:  Trying to access array offset on value of type null in /home/afrovib1/Dataplan.com.ng/signup/index.php on line 31
+[20-Feb-2022 21:31:05 Africa/Lagos] PHP Notice:  Undefined variable: conn in /home/afrovib1/Dataplan.com.ng/signup/index.php on line 29
+[20-Feb-2022 21:31:05 Africa/Lagos] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/afrovib1/Dataplan.com.ng/signup/index.php on line 29
+[20-Feb-2022 21:31:05 Africa/Lagos] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/afrovib1/Dataplan.com.ng/signup/index.php on line 30
+[20-Feb-2022 21:31:05 Africa/Lagos] PHP Notice:  Trying to access array offset on value of type null in /home/afrovib1/Dataplan.com.ng/signup/index.php on line 31
+[20-Feb-2022 21:31:05 Africa/Lagos] PHP Notice:  Undefined variable: conn in /home/afrovib1/Dataplan.com.ng/signup/index.php on line 29
+[20-Feb-2022 21:31:05 Africa/Lagos] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/afrovib1/Dataplan.com.ng/signup/index.php on line 29
+[20-Feb-2022 21:31:05 Africa/Lagos] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/afrovib1/Dataplan.com.ng/signup/index.php on line 30
+[20-Feb-2022 21:31:05 Africa/Lagos] PHP Notice:  Trying to access array offset on value of type null in /home/afrovib1/Dataplan.com.ng/signup/index.php on line 31
+[27-Feb-2022 02:36:43 Africa/Lagos] PHP Notice:  Undefined variable: conn in /home/afrovib1/Dataplan.com.ng/signup/index.php on line 29
+[27-Feb-2022 02:36:43 Africa/Lagos] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/afrovib1/Dataplan.com.ng/signup/index.php on line 29
+[27-Feb-2022 02:36:43 Africa/Lagos] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/afrovib1/Dataplan.com.ng/signup/index.php on line 30
+[27-Feb-2022 02:36:43 Africa/Lagos] PHP Notice:  Trying to access array offset on value of type null in /home/afrovib1/Dataplan.com.ng/signup/index.php on line 31
+[02-Mar-2022 13:26:00 Africa/Lagos] PHP Notice:  Undefined variable: conn in /home/afrovib1/Dataplan.com.ng/signup/index.php on line 29
+[02-Mar-2022 13:26:00 Africa/Lagos] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/afrovib1/Dataplan.com.ng/signup/index.php on line 29
+[02-Mar-2022 13:26:00 Africa/Lagos] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/afrovib1/Dataplan.com.ng/signup/index.php on line 30
+[02-Mar-2022 13:26:00 Africa/Lagos] PHP Notice:  Trying to access array offset on value of type null in /home/afrovib1/Dataplan.com.ng/signup/index.php on line 31
+[02-Mar-2022 13:49:34 Africa/Lagos] PHP Notice:  Undefined variable: conn in /home/afrovib1/Dataplan.com.ng/signup/index.php on line 29
+[02-Mar-2022 13:49:34 Africa/Lagos] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/afrovib1/Dataplan.com.ng/signup/index.php on line 29
+[02-Mar-2022 13:49:34 Africa/Lagos] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/afrovib1/Dataplan.com.ng/signup/index.php on line 30
+[02-Mar-2022 13:49:34 Africa/Lagos] PHP Notice:  Trying to access array offset on value of type null in /home/afrovib1/Dataplan.com.ng/signup/index.php on line 31
+[02-Mar-2022 23:30:09 Africa/Lagos] PHP Notice:  Undefined variable: conn in /home/afrovib1/Dataplan.com.ng/signup/index.php on line 29
+[02-Mar-2022 23:30:09 Africa/Lagos] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/afrovib1/Dataplan.com.ng/signup/index.php on line 29
+[02-Mar-2022 23:30:09 Africa/Lagos] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/afrovib1/Dataplan.com.ng/signup/index.php on line 30
+[02-Mar-2022 23:30:09 Africa/Lagos] PHP Notice:  Trying to access array offset on value of type null in /home/afrovib1/Dataplan.com.ng/signup/index.php on line 31
+[27-Apr-2022 21:00:31 Africa/Lagos] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'abbavtu'@'localhost' (using password: YES) in /home/abbanyay/public_html/new/core/conn.php on line 8
+[27-Apr-2022 21:00:31 Africa/Lagos] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/abbanyay/public_html/new/core/conn.php on line 14
+[27-Apr-2022 21:00:31 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/abbanyay/public_html/new/core/conn.php on line 16
+[27-Apr-2022 21:00:31 Africa/Lagos] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/abbanyay/public_html/new/core/conn.php on line 20
+[27-Apr-2022 21:00:31 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/abbanyay/public_html/new/core/conn.php on line 22
+[27-Apr-2022 21:00:31 Africa/Lagos] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/abbanyay/public_html/new/signup/index.php on line 3
+[27-Apr-2022 21:00:31 Africa/Lagos] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/abbanyay/public_html/new/signup/index.php on line 4
+[27-Apr-2022 21:00:31 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/abbanyay/public_html/new/signup/index.php on line 5
+[27-Apr-2022 21:00:31 Africa/Lagos] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/abbanyay/public_html/new/signup/index.php on line 13
+[27-Apr-2022 21:00:31 Africa/Lagos] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/abbanyay/public_html/new/signup/index.php on line 14
+[27-Apr-2022 21:00:31 Africa/Lagos] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/abbanyay/public_html/new/signup/index.php on line 18
+[27-Apr-2022 21:00:31 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/abbanyay/public_html/new/signup/index.php on line 19
+[27-Apr-2022 21:00:31 Africa/Lagos] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/abbanyay/public_html/new/signup/index.php on line 23
+[27-Apr-2022 21:00:31 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/abbanyay/public_html/new/signup/index.php on line 24
+[27-Apr-2022 21:00:31 Africa/Lagos] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/abbanyay/public_html/new/signup/index.php on line 29
+[27-Apr-2022 21:00:31 Africa/Lagos] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/abbanyay/public_html/new/signup/index.php on line 30
+[27-Apr-2022 21:00:31 Africa/Lagos] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/abbanyay/public_html/new/signup/index.php on line 47
+[27-Apr-2022 21:02:21 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/abbanyay/public_html/new/core/conn.php on line 16
+[27-Apr-2022 21:02:21 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/abbanyay/public_html/new/core/conn.php on line 22
+[27-Apr-2022 21:02:21 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/abbanyay/public_html/new/signup/index.php on line 5
+[27-Apr-2022 21:02:21 Africa/Lagos] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/abbanyay/public_html/new/signup/index.php on line 14
+[27-Apr-2022 21:02:21 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/abbanyay/public_html/new/signup/index.php on line 19
+[27-Apr-2022 21:02:21 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/abbanyay/public_html/new/signup/index.php on line 24
+[27-Apr-2022 21:02:21 Africa/Lagos] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/abbanyay/public_html/new/signup/index.php on line 29
+[27-Apr-2022 21:02:21 Africa/Lagos] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/abbanyay/public_html/new/signup/index.php on line 30
+[27-Apr-2022 21:02:51 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/abbanyay/public_html/new/core/conn.php on line 16
+[27-Apr-2022 21:02:51 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/abbanyay/public_html/new/core/conn.php on line 22
+[27-Apr-2022 21:02:51 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/abbanyay/public_html/new/signup/index.php on line 5
+[27-Apr-2022 21:02:51 Africa/Lagos] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/abbanyay/public_html/new/signup/index.php on line 14
+[27-Apr-2022 21:02:51 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/abbanyay/public_html/new/signup/index.php on line 19
+[27-Apr-2022 21:02:51 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/abbanyay/public_html/new/signup/index.php on line 24
+[27-Apr-2022 21:02:51 Africa/Lagos] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/abbanyay/public_html/new/signup/index.php on line 29
+[27-Apr-2022 21:02:51 Africa/Lagos] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/abbanyay/public_html/new/signup/index.php on line 30
+[27-Apr-2022 21:02:51 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/abbanyay/public_html/new/signup/index.php on line 78
+[27-Apr-2022 21:02:51 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/abbanyay/public_html/new/signup/index.php on line 92
+[27-Apr-2022 21:02:51 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/abbanyay/public_html/new/signup/index.php on line 95
+[27-Apr-2022 21:02:51 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/abbanyay/public_html/new/signup/index.php on line 98
+[27-Apr-2022 21:02:51 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/abbanyay/public_html/new/signup/index.php on line 104
+[27-Apr-2022 21:07:15 Africa/Lagos] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/abbanyay/public_html/new/signup/index.php on line 29
+[27-Apr-2022 21:07:15 Africa/Lagos] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/abbanyay/public_html/new/signup/index.php on line 30
+[27-Apr-2022 21:07:36 Africa/Lagos] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/abbanyay/public_html/new/signup/index.php on line 29
+[27-Apr-2022 21:07:36 Africa/Lagos] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/abbanyay/public_html/new/signup/index.php on line 30
+[27-Apr-2022 21:12:52 Africa/Lagos] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/abbanyay/public_html/new/signup/index.php on line 29
+[27-Apr-2022 21:12:52 Africa/Lagos] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/abbanyay/public_html/new/signup/index.php on line 30
+[27-Apr-2022 21:43:33 Africa/Lagos] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/abbanyay/public_html/new/signup/index.php on line 29
+[27-Apr-2022 21:43:33 Africa/Lagos] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/abbanyay/public_html/new/signup/index.php on line 30
+[27-Apr-2022 21:44:35 Africa/Lagos] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/abbanyay/public_html/new/signup/index.php on line 29
+[27-Apr-2022 21:44:35 Africa/Lagos] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/abbanyay/public_html/new/signup/index.php on line 30
+[27-Apr-2022 22:08:11 Africa/Lagos] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/abbanyay/public_html/new/signup/index.php on line 29
+[27-Apr-2022 22:08:11 Africa/Lagos] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/abbanyay/public_html/new/signup/index.php on line 30
+[27-Apr-2022 22:33:23 Africa/Lagos] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/abbanyay/public_html/new/signup/index.php on line 29
+[27-Apr-2022 22:33:23 Africa/Lagos] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/abbanyay/public_html/new/signup/index.php on line 30
+[22-Feb-2023 18:05:51 Africa/Lagos] PHP Notice:  Undefined variable: conn in /home/africa16/public_html/aimaconnect.com.ng/signup/index.php on line 29
+[22-Feb-2023 18:05:51 Africa/Lagos] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/africa16/public_html/aimaconnect.com.ng/signup/index.php on line 29
+[22-Feb-2023 18:05:51 Africa/Lagos] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/africa16/public_html/aimaconnect.com.ng/signup/index.php on line 30
+[22-Feb-2023 18:13:21 Africa/Lagos] PHP Notice:  Undefined variable: conn in /home/africa16/public_html/aimaconnect.com.ng/signup/index.php on line 29
+[22-Feb-2023 18:13:21 Africa/Lagos] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/africa16/public_html/aimaconnect.com.ng/signup/index.php on line 29
+[22-Feb-2023 18:13:21 Africa/Lagos] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/africa16/public_html/aimaconnect.com.ng/signup/index.php on line 30
+[22-Feb-2023 18:13:28 Africa/Lagos] PHP Notice:  Undefined variable: conn in /home/africa16/public_html/aimaconnect.com.ng/signup/index.php on line 29
+[22-Feb-2023 18:13:28 Africa/Lagos] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/africa16/public_html/aimaconnect.com.ng/signup/index.php on line 29
+[22-Feb-2023 18:13:28 Africa/Lagos] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/africa16/public_html/aimaconnect.com.ng/signup/index.php on line 30
+[23-Feb-2023 13:24:28 Africa/Lagos] PHP Notice:  Undefined variable: conn in /home/africa16/public_html/aimaconnect.com.ng/signup/index.php on line 29
+[23-Feb-2023 13:24:28 Africa/Lagos] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/africa16/public_html/aimaconnect.com.ng/signup/index.php on line 29
+[23-Feb-2023 13:24:28 Africa/Lagos] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/africa16/public_html/aimaconnect.com.ng/signup/index.php on line 30
+[23-Feb-2023 13:25:07 Africa/Lagos] PHP Notice:  Undefined variable: conn in /home/africa16/public_html/aimaconnect.com.ng/signup/index.php on line 29
+[23-Feb-2023 13:25:07 Africa/Lagos] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/africa16/public_html/aimaconnect.com.ng/signup/index.php on line 29
+[23-Feb-2023 13:25:07 Africa/Lagos] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/africa16/public_html/aimaconnect.com.ng/signup/index.php on line 30
+[24-Feb-2023 20:56:55 Africa/Lagos] PHP Notice:  Undefined variable: conn in /home/africa16/public_html/aimaconnect.com.ng/signup/index.php on line 29
+[24-Feb-2023 20:56:55 Africa/Lagos] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/africa16/public_html/aimaconnect.com.ng/signup/index.php on line 29
+[24-Feb-2023 20:56:55 Africa/Lagos] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/africa16/public_html/aimaconnect.com.ng/signup/index.php on line 30
+[24-Feb-2023 20:59:04 Africa/Lagos] PHP Notice:  Undefined variable: conn in /home/africa16/public_html/aimaconnect.com.ng/signup/index.php on line 29
+[24-Feb-2023 20:59:04 Africa/Lagos] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/africa16/public_html/aimaconnect.com.ng/signup/index.php on line 29
+[24-Feb-2023 20:59:04 Africa/Lagos] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/africa16/public_html/aimaconnect.com.ng/signup/index.php on line 30
+[24-Feb-2023 20:59:42 Africa/Lagos] PHP Notice:  Undefined variable: conn in /home/africa16/public_html/aimaconnect.com.ng/signup/index.php on line 29
+[24-Feb-2023 20:59:42 Africa/Lagos] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/africa16/public_html/aimaconnect.com.ng/signup/index.php on line 29
+[24-Feb-2023 20:59:42 Africa/Lagos] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/africa16/public_html/aimaconnect.com.ng/signup/index.php on line 30
+[24-Feb-2023 21:07:08 Africa/Lagos] PHP Notice:  Undefined variable: conn in /home/africa16/public_html/aimaconnect.com.ng/signup/index.php on line 29
+[24-Feb-2023 21:07:08 Africa/Lagos] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/africa16/public_html/aimaconnect.com.ng/signup/index.php on line 29
+[24-Feb-2023 21:07:08 Africa/Lagos] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/africa16/public_html/aimaconnect.com.ng/signup/index.php on line 30
+[25-Feb-2023 06:13:20 Africa/Lagos] PHP Notice:  Undefined variable: conn in /home/africa16/public_html/aimaconnect.com.ng/signup/index.php on line 29
+[25-Feb-2023 06:13:20 Africa/Lagos] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/africa16/public_html/aimaconnect.com.ng/signup/index.php on line 29
+[25-Feb-2023 06:13:20 Africa/Lagos] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/africa16/public_html/aimaconnect.com.ng/signup/index.php on line 30
+[25-Feb-2023 06:15:44 Africa/Lagos] PHP Notice:  Undefined variable: conn in /home/africa16/public_html/aimaconnect.com.ng/signup/index.php on line 29
+[25-Feb-2023 06:15:44 Africa/Lagos] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/africa16/public_html/aimaconnect.com.ng/signup/index.php on line 29
+[25-Feb-2023 06:15:44 Africa/Lagos] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/africa16/public_html/aimaconnect.com.ng/signup/index.php on line 30
+[25-Feb-2023 06:23:03 Africa/Lagos] PHP Notice:  Undefined variable: conn in /home/africa16/public_html/aimaconnect.com.ng/signup/index.php on line 29
+[25-Feb-2023 06:23:03 Africa/Lagos] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/africa16/public_html/aimaconnect.com.ng/signup/index.php on line 29
+[25-Feb-2023 06:23:03 Africa/Lagos] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/africa16/public_html/aimaconnect.com.ng/signup/index.php on line 30
+[26-Feb-2023 20:09:56 Africa/Lagos] PHP Notice:  Undefined variable: conn in /home/africa16/public_html/aimaconnect.com.ng/signup/index.php on line 29
+[26-Feb-2023 20:09:56 Africa/Lagos] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/africa16/public_html/aimaconnect.com.ng/signup/index.php on line 29
+[26-Feb-2023 20:09:56 Africa/Lagos] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/africa16/public_html/aimaconnect.com.ng/signup/index.php on line 30
+[26-Feb-2023 20:11:34 Africa/Lagos] PHP Notice:  Undefined variable: conn in /home/africa16/public_html/aimaconnect.com.ng/signup/index.php on line 29
+[26-Feb-2023 20:11:34 Africa/Lagos] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/africa16/public_html/aimaconnect.com.ng/signup/index.php on line 29
+[26-Feb-2023 20:11:34 Africa/Lagos] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/africa16/public_html/aimaconnect.com.ng/signup/index.php on line 30
+[26-Feb-2023 20:19:44 Africa/Lagos] PHP Notice:  Undefined variable: conn in /home/africa16/public_html/aimaconnect.com.ng/signup/index.php on line 29
+[26-Feb-2023 20:19:44 Africa/Lagos] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/africa16/public_html/aimaconnect.com.ng/signup/index.php on line 29
+[26-Feb-2023 20:19:44 Africa/Lagos] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/africa16/public_html/aimaconnect.com.ng/signup/index.php on line 30
+[26-Feb-2023 20:43:45 Africa/Lagos] PHP Notice:  Undefined variable: conn in /home/africa16/public_html/aimaconnect.com.ng/signup/index.php on line 29
+[26-Feb-2023 20:43:45 Africa/Lagos] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/africa16/public_html/aimaconnect.com.ng/signup/index.php on line 29
+[26-Feb-2023 20:43:45 Africa/Lagos] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/africa16/public_html/aimaconnect.com.ng/signup/index.php on line 30
+[27-Feb-2023 21:06:36 Africa/Lagos] PHP Notice:  Undefined variable: conn in /home/africa16/public_html/aimaconnect.com.ng/signup/index.php on line 29
+[27-Feb-2023 21:06:36 Africa/Lagos] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/africa16/public_html/aimaconnect.com.ng/signup/index.php on line 29
+[27-Feb-2023 21:06:36 Africa/Lagos] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/africa16/public_html/aimaconnect.com.ng/signup/index.php on line 30
+[28-Feb-2023 01:11:32 Africa/Lagos] PHP Notice:  Undefined variable: conn in /home/africa16/public_html/aimaconnect.com.ng/signup/index.php on line 29
+[28-Feb-2023 01:11:32 Africa/Lagos] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/africa16/public_html/aimaconnect.com.ng/signup/index.php on line 29
+[28-Feb-2023 01:11:32 Africa/Lagos] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/africa16/public_html/aimaconnect.com.ng/signup/index.php on line 30
+[28-Feb-2023 01:12:54 Africa/Lagos] PHP Notice:  Undefined variable: conn in /home/africa16/public_html/aimaconnect.com.ng/signup/index.php on line 29
+[28-Feb-2023 01:12:54 Africa/Lagos] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/africa16/public_html/aimaconnect.com.ng/signup/index.php on line 29
+[28-Feb-2023 01:12:54 Africa/Lagos] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/africa16/public_html/aimaconnect.com.ng/signup/index.php on line 30
+[28-Feb-2023 01:13:24 Africa/Lagos] PHP Notice:  Undefined variable: conn in /home/africa16/public_html/aimaconnect.com.ng/signup/index.php on line 29
+[28-Feb-2023 01:13:24 Africa/Lagos] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/africa16/public_html/aimaconnect.com.ng/signup/index.php on line 29
+[28-Feb-2023 01:13:24 Africa/Lagos] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/africa16/public_html/aimaconnect.com.ng/signup/index.php on line 30
+[28-Feb-2023 01:13:45 Africa/Lagos] PHP Notice:  Undefined variable: conn in /home/africa16/public_html/aimaconnect.com.ng/signup/index.php on line 29
+[28-Feb-2023 01:13:45 Africa/Lagos] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/africa16/public_html/aimaconnect.com.ng/signup/index.php on line 29
+[28-Feb-2023 01:13:45 Africa/Lagos] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/africa16/public_html/aimaconnect.com.ng/signup/index.php on line 30
+[28-Feb-2023 20:34:49 Africa/Lagos] PHP Notice:  Undefined variable: conn in /home/africa16/public_html/aimaconnect.com.ng/signup/index.php on line 29
+[28-Feb-2023 20:34:49 Africa/Lagos] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/africa16/public_html/aimaconnect.com.ng/signup/index.php on line 29
+[28-Feb-2023 20:34:49 Africa/Lagos] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/africa16/public_html/aimaconnect.com.ng/signup/index.php on line 30
+[03-Mar-2023 09:07:17 Africa/Lagos] PHP Notice:  Undefined variable: conn in /home/africa16/public_html/aimaconnect.com.ng/signup/index.php on line 29
+[03-Mar-2023 09:07:17 Africa/Lagos] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/africa16/public_html/aimaconnect.com.ng/signup/index.php on line 29
+[03-Mar-2023 09:07:17 Africa/Lagos] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/africa16/public_html/aimaconnect.com.ng/signup/index.php on line 30
+[03-Mar-2023 12:41:13 Africa/Lagos] PHP Notice:  Undefined variable: conn in /home/africa16/public_html/aimaconnect.com.ng/signup/index.php on line 29
+[03-Mar-2023 12:41:13 Africa/Lagos] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/africa16/public_html/aimaconnect.com.ng/signup/index.php on line 29
+[03-Mar-2023 12:41:13 Africa/Lagos] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/africa16/public_html/aimaconnect.com.ng/signup/index.php on line 30

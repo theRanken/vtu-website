@@ -1,0 +1,159 @@
+[20-Feb-2022 21:30:52 Africa/Lagos] PHP Notice:  Undefined index: id in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 4
+[20-Feb-2022 21:30:52 Africa/Lagos] PHP Notice:  Undefined index: id in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 4
+[20-Feb-2022 21:30:52 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 6
+[20-Feb-2022 21:30:52 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 6
+[20-Feb-2022 21:30:52 Africa/Lagos] PHP Notice:  Undefined index: web in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 48
+[20-Feb-2022 21:30:52 Africa/Lagos] PHP Notice:  Undefined index: web in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 48
+[20-Feb-2022 21:30:52 Africa/Lagos] PHP Notice:  Undefined variable: row in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 166
+[20-Feb-2022 21:30:52 Africa/Lagos] PHP Notice:  Trying to access array offset on value of type null in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 166
+[20-Feb-2022 21:30:52 Africa/Lagos] PHP Notice:  Undefined variable: row in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 167
+[20-Feb-2022 21:30:52 Africa/Lagos] PHP Notice:  Trying to access array offset on value of type null in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 167
+[20-Feb-2022 21:30:52 Africa/Lagos] PHP Notice:  Undefined variable: row in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 166
+[20-Feb-2022 21:30:52 Africa/Lagos] PHP Notice:  Trying to access array offset on value of type null in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 166
+[20-Feb-2022 21:30:52 Africa/Lagos] PHP Notice:  Undefined variable: row in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 167
+[20-Feb-2022 21:30:52 Africa/Lagos] PHP Notice:  Trying to access array offset on value of type null in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 167
+[20-Feb-2022 21:30:52 Africa/Lagos] PHP Notice:  Undefined index: id in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 4
+[20-Feb-2022 21:30:52 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 6
+[20-Feb-2022 21:30:52 Africa/Lagos] PHP Notice:  Undefined index: web in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 48
+[20-Feb-2022 21:30:52 Africa/Lagos] PHP Notice:  Undefined variable: row in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 166
+[20-Feb-2022 21:30:52 Africa/Lagos] PHP Notice:  Trying to access array offset on value of type null in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 166
+[20-Feb-2022 21:30:52 Africa/Lagos] PHP Notice:  Undefined variable: row in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 167
+[20-Feb-2022 21:30:52 Africa/Lagos] PHP Notice:  Trying to access array offset on value of type null in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 167
+[20-Feb-2022 21:31:05 Africa/Lagos] PHP Notice:  Undefined index: id in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 4
+[20-Feb-2022 21:31:05 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 6
+[20-Feb-2022 21:31:05 Africa/Lagos] PHP Notice:  Undefined index: web in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 48
+[20-Feb-2022 21:31:05 Africa/Lagos] PHP Notice:  Undefined variable: row in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 166
+[20-Feb-2022 21:31:05 Africa/Lagos] PHP Notice:  Trying to access array offset on value of type null in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 166
+[20-Feb-2022 21:31:05 Africa/Lagos] PHP Notice:  Undefined variable: row in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 167
+[20-Feb-2022 21:31:05 Africa/Lagos] PHP Notice:  Trying to access array offset on value of type null in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 167
+[21-Feb-2022 16:06:10 Africa/Lagos] PHP Notice:  Undefined index: id in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 4
+[21-Feb-2022 16:06:10 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 6
+[21-Feb-2022 16:06:10 Africa/Lagos] PHP Notice:  Undefined index: web in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 48
+[21-Feb-2022 16:06:10 Africa/Lagos] PHP Notice:  Undefined variable: row in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 166
+[21-Feb-2022 16:06:10 Africa/Lagos] PHP Notice:  Trying to access array offset on value of type null in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 166
+[21-Feb-2022 16:06:10 Africa/Lagos] PHP Notice:  Undefined variable: row in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 167
+[21-Feb-2022 16:06:10 Africa/Lagos] PHP Notice:  Trying to access array offset on value of type null in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 167
+[25-Feb-2022 14:30:40 Africa/Lagos] PHP Notice:  Undefined index: id in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 4
+[25-Feb-2022 14:30:40 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 6
+[25-Feb-2022 14:30:40 Africa/Lagos] PHP Notice:  Undefined index: web in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 48
+[25-Feb-2022 14:30:40 Africa/Lagos] PHP Notice:  Undefined variable: row in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 166
+[25-Feb-2022 14:30:40 Africa/Lagos] PHP Notice:  Trying to access array offset on value of type null in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 166
+[25-Feb-2022 14:30:40 Africa/Lagos] PHP Notice:  Undefined variable: row in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 167
+[25-Feb-2022 14:30:40 Africa/Lagos] PHP Notice:  Trying to access array offset on value of type null in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 167
+[28-Feb-2022 12:33:57 Africa/Lagos] PHP Notice:  Undefined index: id in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 4
+[28-Feb-2022 12:33:57 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 6
+[28-Feb-2022 12:33:57 Africa/Lagos] PHP Notice:  Undefined index: web in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 48
+[28-Feb-2022 12:33:57 Africa/Lagos] PHP Notice:  Undefined variable: row in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 166
+[28-Feb-2022 12:33:57 Africa/Lagos] PHP Notice:  Trying to access array offset on value of type null in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 166
+[28-Feb-2022 12:33:57 Africa/Lagos] PHP Notice:  Undefined variable: row in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 167
+[28-Feb-2022 12:33:57 Africa/Lagos] PHP Notice:  Trying to access array offset on value of type null in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 167
+[28-Feb-2022 20:34:32 Africa/Lagos] PHP Notice:  Undefined index: id in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 4
+[28-Feb-2022 20:34:32 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 6
+[28-Feb-2022 20:34:32 Africa/Lagos] PHP Notice:  Undefined index: web in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 48
+[28-Feb-2022 20:34:32 Africa/Lagos] PHP Notice:  Undefined variable: row in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 166
+[28-Feb-2022 20:34:32 Africa/Lagos] PHP Notice:  Trying to access array offset on value of type null in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 166
+[28-Feb-2022 20:34:32 Africa/Lagos] PHP Notice:  Undefined variable: row in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 167
+[28-Feb-2022 20:34:32 Africa/Lagos] PHP Notice:  Trying to access array offset on value of type null in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 167
+[28-Feb-2022 20:55:01 Africa/Lagos] PHP Notice:  Undefined index: id in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 4
+[28-Feb-2022 20:55:01 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 6
+[28-Feb-2022 20:55:01 Africa/Lagos] PHP Notice:  Undefined index: web in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 48
+[28-Feb-2022 20:55:01 Africa/Lagos] PHP Notice:  Undefined variable: row in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 166
+[28-Feb-2022 20:55:01 Africa/Lagos] PHP Notice:  Trying to access array offset on value of type null in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 166
+[28-Feb-2022 20:55:01 Africa/Lagos] PHP Notice:  Undefined variable: row in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 167
+[28-Feb-2022 20:55:01 Africa/Lagos] PHP Notice:  Trying to access array offset on value of type null in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 167
+[01-Mar-2022 04:08:42 Africa/Lagos] PHP Notice:  Undefined index: id in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 4
+[01-Mar-2022 04:08:42 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 6
+[01-Mar-2022 04:08:42 Africa/Lagos] PHP Notice:  Undefined index: web in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 48
+[01-Mar-2022 04:08:42 Africa/Lagos] PHP Notice:  Undefined variable: row in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 166
+[01-Mar-2022 04:08:42 Africa/Lagos] PHP Notice:  Trying to access array offset on value of type null in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 166
+[01-Mar-2022 04:08:42 Africa/Lagos] PHP Notice:  Undefined variable: row in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 167
+[01-Mar-2022 04:08:42 Africa/Lagos] PHP Notice:  Trying to access array offset on value of type null in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 167
+[02-Mar-2022 02:38:14 Africa/Lagos] PHP Notice:  Undefined index: id in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 4
+[02-Mar-2022 02:38:14 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 6
+[02-Mar-2022 02:38:14 Africa/Lagos] PHP Notice:  Undefined index: web in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 48
+[02-Mar-2022 02:38:14 Africa/Lagos] PHP Notice:  Undefined variable: row in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 166
+[02-Mar-2022 02:38:14 Africa/Lagos] PHP Notice:  Trying to access array offset on value of type null in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 166
+[02-Mar-2022 02:38:14 Africa/Lagos] PHP Notice:  Undefined variable: row in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 167
+[02-Mar-2022 02:38:14 Africa/Lagos] PHP Notice:  Trying to access array offset on value of type null in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 167
+[02-Mar-2022 03:02:34 Africa/Lagos] PHP Notice:  Undefined index: id in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 4
+[02-Mar-2022 03:02:34 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 6
+[02-Mar-2022 03:02:34 Africa/Lagos] PHP Notice:  Undefined index: web in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 48
+[02-Mar-2022 03:02:34 Africa/Lagos] PHP Notice:  Undefined variable: row in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 166
+[02-Mar-2022 03:02:34 Africa/Lagos] PHP Notice:  Trying to access array offset on value of type null in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 166
+[02-Mar-2022 03:02:34 Africa/Lagos] PHP Notice:  Undefined variable: row in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 167
+[02-Mar-2022 03:02:34 Africa/Lagos] PHP Notice:  Trying to access array offset on value of type null in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 167
+[02-Mar-2022 10:09:52 Africa/Lagos] PHP Notice:  Undefined index: id in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 4
+[02-Mar-2022 10:09:52 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 6
+[02-Mar-2022 10:09:52 Africa/Lagos] PHP Notice:  Undefined index: web in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 48
+[02-Mar-2022 10:09:52 Africa/Lagos] PHP Notice:  Undefined variable: row in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 166
+[02-Mar-2022 10:09:52 Africa/Lagos] PHP Notice:  Trying to access array offset on value of type null in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 166
+[02-Mar-2022 10:09:52 Africa/Lagos] PHP Notice:  Undefined variable: row in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 167
+[02-Mar-2022 10:09:52 Africa/Lagos] PHP Notice:  Trying to access array offset on value of type null in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 167
+[02-Mar-2022 17:14:09 Africa/Lagos] PHP Notice:  Undefined index: id in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 4
+[02-Mar-2022 17:14:09 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 6
+[02-Mar-2022 17:14:09 Africa/Lagos] PHP Notice:  Undefined index: web in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 48
+[02-Mar-2022 17:14:09 Africa/Lagos] PHP Notice:  Undefined variable: row in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 166
+[02-Mar-2022 17:14:09 Africa/Lagos] PHP Notice:  Trying to access array offset on value of type null in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 166
+[02-Mar-2022 17:14:09 Africa/Lagos] PHP Notice:  Undefined variable: row in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 167
+[02-Mar-2022 17:14:09 Africa/Lagos] PHP Notice:  Trying to access array offset on value of type null in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 167
+[02-Mar-2022 23:37:31 Africa/Lagos] PHP Notice:  Undefined index: id in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 4
+[02-Mar-2022 23:37:31 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 6
+[02-Mar-2022 23:37:31 Africa/Lagos] PHP Notice:  Undefined index: web in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 48
+[02-Mar-2022 23:37:31 Africa/Lagos] PHP Notice:  Undefined variable: row in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 166
+[02-Mar-2022 23:37:31 Africa/Lagos] PHP Notice:  Trying to access array offset on value of type null in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 166
+[02-Mar-2022 23:37:31 Africa/Lagos] PHP Notice:  Undefined variable: row in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 167
+[02-Mar-2022 23:37:31 Africa/Lagos] PHP Notice:  Trying to access array offset on value of type null in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 167
+[02-Mar-2022 23:37:37 Africa/Lagos] PHP Notice:  Undefined index: id in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 4
+[02-Mar-2022 23:37:37 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 6
+[02-Mar-2022 23:37:37 Africa/Lagos] PHP Notice:  Undefined index: web in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 48
+[02-Mar-2022 23:37:37 Africa/Lagos] PHP Notice:  Undefined variable: row in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 166
+[02-Mar-2022 23:37:37 Africa/Lagos] PHP Notice:  Trying to access array offset on value of type null in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 166
+[02-Mar-2022 23:37:37 Africa/Lagos] PHP Notice:  Undefined variable: row in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 167
+[02-Mar-2022 23:37:37 Africa/Lagos] PHP Notice:  Trying to access array offset on value of type null in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 167
+[02-Mar-2022 23:53:32 Africa/Lagos] PHP Notice:  Undefined index: id in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 4
+[02-Mar-2022 23:53:32 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 6
+[02-Mar-2022 23:53:32 Africa/Lagos] PHP Notice:  Undefined index: web in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 48
+[02-Mar-2022 23:53:32 Africa/Lagos] PHP Notice:  Undefined variable: row in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 166
+[02-Mar-2022 23:53:32 Africa/Lagos] PHP Notice:  Trying to access array offset on value of type null in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 166
+[02-Mar-2022 23:53:32 Africa/Lagos] PHP Notice:  Undefined variable: row in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 167
+[02-Mar-2022 23:53:32 Africa/Lagos] PHP Notice:  Trying to access array offset on value of type null in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 167
+[03-Mar-2022 00:58:48 Africa/Lagos] PHP Notice:  Undefined index: id in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 4
+[03-Mar-2022 00:58:48 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 6
+[03-Mar-2022 00:58:48 Africa/Lagos] PHP Notice:  Undefined index: web in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 48
+[03-Mar-2022 00:58:48 Africa/Lagos] PHP Notice:  Undefined variable: row in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 166
+[03-Mar-2022 00:58:48 Africa/Lagos] PHP Notice:  Trying to access array offset on value of type null in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 166
+[03-Mar-2022 00:58:48 Africa/Lagos] PHP Notice:  Undefined variable: row in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 167
+[03-Mar-2022 00:58:48 Africa/Lagos] PHP Notice:  Trying to access array offset on value of type null in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 167
+[03-Mar-2022 04:16:12 Africa/Lagos] PHP Notice:  Undefined index: id in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 4
+[03-Mar-2022 04:16:12 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 6
+[03-Mar-2022 04:16:12 Africa/Lagos] PHP Notice:  Undefined index: web in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 48
+[03-Mar-2022 04:16:12 Africa/Lagos] PHP Notice:  Undefined variable: row in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 166
+[03-Mar-2022 04:16:12 Africa/Lagos] PHP Notice:  Trying to access array offset on value of type null in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 166
+[03-Mar-2022 04:16:12 Africa/Lagos] PHP Notice:  Undefined variable: row in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 167
+[03-Mar-2022 04:16:12 Africa/Lagos] PHP Notice:  Trying to access array offset on value of type null in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 167
+[03-Mar-2022 07:15:29 Africa/Lagos] PHP Notice:  Undefined index: id in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 4
+[03-Mar-2022 07:15:29 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 6
+[03-Mar-2022 07:15:29 Africa/Lagos] PHP Notice:  Undefined index: web in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 48
+[03-Mar-2022 07:15:29 Africa/Lagos] PHP Notice:  Undefined variable: row in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 166
+[03-Mar-2022 07:15:29 Africa/Lagos] PHP Notice:  Trying to access array offset on value of type null in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 166
+[03-Mar-2022 07:15:29 Africa/Lagos] PHP Notice:  Undefined variable: row in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 167
+[03-Mar-2022 07:15:29 Africa/Lagos] PHP Notice:  Trying to access array offset on value of type null in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 167
+[03-Mar-2022 10:16:06 Africa/Lagos] PHP Notice:  Undefined index: id in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 4
+[03-Mar-2022 10:16:06 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 6
+[03-Mar-2022 10:16:06 Africa/Lagos] PHP Notice:  Undefined index: web in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 48
+[03-Mar-2022 10:16:06 Africa/Lagos] PHP Notice:  Undefined variable: row in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 166
+[03-Mar-2022 10:16:06 Africa/Lagos] PHP Notice:  Trying to access array offset on value of type null in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 166
+[03-Mar-2022 10:16:06 Africa/Lagos] PHP Notice:  Undefined variable: row in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 167
+[03-Mar-2022 10:16:06 Africa/Lagos] PHP Notice:  Trying to access array offset on value of type null in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 167
+[03-Mar-2022 10:51:50 Africa/Lagos] PHP Notice:  Undefined index: id in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 4
+[03-Mar-2022 10:51:50 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 6
+[03-Mar-2022 10:51:50 Africa/Lagos] PHP Notice:  Undefined index: web in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 48
+[03-Mar-2022 10:51:50 Africa/Lagos] PHP Notice:  Undefined variable: row in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 166
+[03-Mar-2022 10:51:50 Africa/Lagos] PHP Notice:  Trying to access array offset on value of type null in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 166
+[03-Mar-2022 10:51:50 Africa/Lagos] PHP Notice:  Undefined variable: row in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 167
+[03-Mar-2022 10:51:50 Africa/Lagos] PHP Notice:  Trying to access array offset on value of type null in /home/afrovib1/Dataplan.com.ng/terms/index.php on line 167
+[24-Feb-2023 21:08:14 Africa/Lagos] PHP Notice:  Undefined index: id in /home/africa16/public_html/aimaconnect.com.ng/terms/index.php on line 4
+[24-Feb-2023 21:08:14 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/africa16/public_html/aimaconnect.com.ng/terms/index.php on line 6
+[24-Feb-2023 21:08:14 Africa/Lagos] PHP Notice:  Undefined index: web in /home/africa16/public_html/aimaconnect.com.ng/terms/index.php on line 48
+[24-Feb-2023 21:08:14 Africa/Lagos] PHP Notice:  Undefined variable: row in /home/africa16/public_html/aimaconnect.com.ng/terms/index.php on line 166
+[24-Feb-2023 21:08:14 Africa/Lagos] PHP Notice:  Undefined variable: row in /home/africa16/public_html/aimaconnect.com.ng/terms/index.php on line 167

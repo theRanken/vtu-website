@@ -1,0 +1,19 @@
+.container-fluid{
+    background-color: rgba(255, 255, 255, 0.89);
+}
+.dropdown-menu dropdown-item:hover{
+    color: aliceblue !important;
+}
+#content{
+    margin-top: 30px;
+    padding-bottom: 30px;
+   
+    border-radius: 4px;
+}
+#login-form{
+    margin: 20px;
+    margin-top: 30px;
+    padding-top: 20px;
+    border: 1px solid rgb(214, 190, 190);
+    border-radius: 4px;
+}
