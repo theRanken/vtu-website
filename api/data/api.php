@@ -70,10 +70,11 @@ if (isset($headers["Authorization"])) {
             $adex_network = mysqli_query($con, "SELECT * FROM networkid WHERE networkid='$network'");
             $check_network = mysqli_num_rows($adex_network);
             if ($check_network == 1) {
-                while ($elijah_network = mysqli_fetch_array($adex_network)) {
+                while ($elijah_network = mysqli_fetch_array($adex_network)){
                     $network_id = $elijah_network["networkid"];
                     $network_name = $elijah_network["network"];
                 }
+                
                 //check if network avialable
                 $data_lock = mysqli_query($con, "SELECT * FROM data_lock");
                 $lock = mysqli_fetch_array($data_lock);

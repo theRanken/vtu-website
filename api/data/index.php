@@ -6,9 +6,11 @@ header('Content-Type: application/json');
 header("Access-Control-Allow-Methods: POST");
 header("Allow: GET, POST, OPTIONS, PUT, DELETE");
 header("Access-Control-Allow-Headers: X-API-KEY, Origin, X-Requested-With, Content-Type, Accept, Access-Control-Request-Method, Access-Control-Allow-Origin");
+
 $verificationStatus = "fail";
 $headers = apache_request_headers();
 $response = array();
+
 if (isset($headers['Authorization'])) {
   $token = trim(str_replace("Token", "", $headers['Authorization']));
   $retr = "SELECT * FROM user WHERE apikey='$token' AND status='1'";
@@ -151,7 +153,7 @@ if (isset($headers['Authorization'])) {
                         CURLOPT_FOLLOWLOCATION => true,
                         CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
                         CURLOPT_CUSTOMREQUEST => 'POST',
-                        CURLOPT_POSTFIELDS => '{"network": ' . $network_id . ',
+                        CURLOPT_POSTFIELDS => '{"network": ' . $data_id . ',
                                               "phone": "' . $phone . '",
                                               "bypass": false,
                                               "request-id": ' . $transid56 . ',
@@ -195,16 +197,17 @@ if (isset($headers['Authorization'])) {
                           // echo "<script> alert('email was sent');</script>";
                         }
                         ;
-                        $response['amount'] = "$data_price";
-                        $response['transid'] = "$transid";
-                        $response['date'] = "$date";
-                        $response['newbal'] = "$debit";
-                        $response['oldbal'] = "$blc";
-                        $response['mobile_number'] = "$phone";
-                        $response['plan_name'] = "$data_name";
-                        $response['plan_type'] = "$data_type";
-                        $response['network'] = "$network_name";
+                        $response['amount'] = $data_price;
+                        $response['transid'] = $transid;
+                        $response['date'] = $date;
+                        $response['newbal'] = $debit;
+                        $response['oldbal'] = $blc;
+                        $response['mobile_number'] = $phone;
+                        $response['plan_name'] = $data_name;
+                        $response['plan_type'] = $data_type;
+                        $response['network'] = $network_name;
                         $response['status'] = "successful";
+
                       } else {
                         $fund = $debit + $data_price;
                         $doupt_fund = mysqli_query($con, "UPDATE user set bal='$fund' WHERE email='$email'");
@@ -236,15 +239,15 @@ if (isset($headers['Authorization'])) {
                           // echo "<script> alert('email was sent');</script>";
                         }
                         ;
-                        $response['amount'] = "$data_price";
-                        $response['transid'] = "$transid";
-                        $response['date'] = "$date";
-                        $response['newbal'] = "$fund";
-                        $response['oldbal'] = "$blc";
-                        $response['mobile_number'] = "$phone";
-                        $response['plan_name'] = "$data_name";
-                        $response['plan_type'] = "$data_type";
-                        $response['network'] = "$network_name";
+                        $response['amount'] = $data_price;
+                        $response['transid'] = $transid;
+                        $response['date'] = $date;
+                        $response['newbal'] = $fund;
+                        $response['oldbal'] = strval($blc);
+                        $response['mobile_number'] = $phone;
+                        $response['plan_name'] = $data_name;
+                        $response['plan_type'] = $data_type;
+                        $response['network'] = $network_name;
                         $response['status'] = "fail";
                       }
                     } else {

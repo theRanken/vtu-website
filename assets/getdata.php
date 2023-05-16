@@ -14,5 +14,5 @@ if (isset($_POST['network'])) {
 
 		echo '<option value="">THERE IS NO DATA PLAN FOR THIS NETWORK</option>';
 	}
-}
+} 
 ?>
