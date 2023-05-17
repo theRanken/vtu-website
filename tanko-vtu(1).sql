@@ -10,18 +10,19 @@
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
 SET time_zone = "+00:00";
+SET default_storage_engine=INNODB;
 
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8mb4 */;
+/*!40101 SET NAMES utf8 */;
 
 --
 -- Database: `tanko-vtu`
 --
-CREATE DATABASE IF NOT EXISTS `tanko-vtu` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci;
-USE `tanko-vtu`;
+CREATE DATABASE IF NOT EXISTS `conngtke_connectvaluedataservice` DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci;
+USE `conngtke_connectvaluedataservice`;
 
 -- --------------------------------------------------------
 
@@ -31,11 +32,11 @@ USE `tanko-vtu`;
 
 CREATE TABLE `2cash` (
   `id` int NOT NULL,
-  `mtn` varchar(255) COLLATE utf8mb3_unicode_ci NOT NULL,
-  `glo` varchar(255) COLLATE utf8mb3_unicode_ci NOT NULL,
-  `airtel` varchar(255) COLLATE utf8mb3_unicode_ci NOT NULL,
-  `9mobile` varchar(255) COLLATE utf8mb3_unicode_ci NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3 COLLATE=utf8mb3_unicode_ci;
+  `mtn` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `glo` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `airtel` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `9mobile` varchar(255) COLLATE utf8_unicode_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
 -- Dumping data for table `2cash`
@@ -52,11 +53,11 @@ INSERT INTO `2cash` (`id`, `mtn`, `glo`, `airtel`, `9mobile`) VALUES
 
 CREATE TABLE `add_cable` (
   `id` int NOT NULL,
-  `name` varchar(255) COLLATE utf8mb3_unicode_ci NOT NULL,
-  `planid` varchar(255) COLLATE utf8mb3_unicode_ci NOT NULL,
-  `price` varchar(255) COLLATE utf8mb3_unicode_ci NOT NULL,
-  `cable` varchar(255) COLLATE utf8mb3_unicode_ci NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3 COLLATE=utf8mb3_unicode_ci;
+  `name` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `planid` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `price` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `cable` varchar(255) COLLATE utf8_unicode_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
 -- Dumping data for table `add_cable`
@@ -77,7 +78,7 @@ CREATE TABLE `admin` (
   `username` varchar(255) NOT NULL,
   `password1` varchar(255) NOT NULL,
   `status` varchar(255) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `admin`
@@ -102,7 +103,7 @@ CREATE TABLE `airtime` (
   `mobile` varchar(255) NOT NULL,
   `type` varchar(255) NOT NULL,
   `date` varchar(255) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `airtime`
@@ -131,7 +132,7 @@ CREATE TABLE `airtimeprice` (
   `afpriceair` varchar(255) NOT NULL,
   `toppriceair` varchar(255) NOT NULL,
   `smartpriceair` varchar(255) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `airtimeprice`
@@ -148,11 +149,11 @@ INSERT INTO `airtimeprice` (`id`, `afpricemtn`, `afpriceglo`, `afpriceet`, `topp
 
 CREATE TABLE `airtime_lock` (
   `id` int NOT NULL,
-  `mtn_vtu` varchar(255) COLLATE utf8mb3_unicode_ci NOT NULL,
-  `glo_vtu` varchar(255) COLLATE utf8mb3_unicode_ci NOT NULL,
-  `9mobile_vtu` varchar(255) COLLATE utf8mb3_unicode_ci NOT NULL,
-  `airtel_vtu` varchar(255) COLLATE utf8mb3_unicode_ci NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3 COLLATE=utf8mb3_unicode_ci;
+  `mtn_vtu` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `glo_vtu` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `9mobile_vtu` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `airtel_vtu` varchar(255) COLLATE utf8_unicode_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
 -- Dumping data for table `airtime_lock`
@@ -170,7 +171,7 @@ INSERT INTO `airtime_lock` (`id`, `mtn_vtu`, `glo_vtu`, `9mobile_vtu`, `airtel_v
 CREATE TABLE `api` (
   `id` int NOT NULL,
   `apikey` varchar(255) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `api`
@@ -190,7 +191,7 @@ CREATE TABLE `apiairtime` (
   `network` varchar(255) NOT NULL,
   `networkid` varchar(255) NOT NULL,
   `price` varchar(255) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `apiairtime`
@@ -213,7 +214,7 @@ CREATE TABLE `bank` (
   `number` varchar(255) NOT NULL,
   `name` varchar(255) NOT NULL,
   `bankname` varchar(255) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `bank`
@@ -237,7 +238,7 @@ CREATE TABLE `bankpayment` (
   `number` varchar(255) NOT NULL,
   `status` varchar(255) NOT NULL,
   `date` varchar(255) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `bankpayment`
@@ -263,7 +264,7 @@ CREATE TABLE `cable` (
   `transid` varchar(255) NOT NULL,
   `date` varchar(255) NOT NULL,
   `price` varchar(255) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `cable`
@@ -286,7 +287,7 @@ CREATE TABLE `cableapi` (
   `price` varchar(255) NOT NULL,
   `cable` varchar(255) NOT NULL,
   `planid` varchar(255) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `cableapi`
@@ -352,10 +353,10 @@ INSERT INTO `cableapi` (`id`, `cableid`, `cablename`, `price`, `cable`, `planid`
 
 CREATE TABLE `cablecharges` (
   `id` int NOT NULL,
-  `dstv` varchar(255) COLLATE utf8mb3_unicode_ci NOT NULL,
-  `gotv` varchar(255) COLLATE utf8mb3_unicode_ci NOT NULL,
-  `startime` varchar(255) COLLATE utf8mb3_unicode_ci NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3 COLLATE=utf8mb3_unicode_ci;
+  `dstv` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `gotv` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `startime` varchar(255) COLLATE utf8_unicode_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
 -- Dumping data for table `cablecharges`
@@ -372,10 +373,10 @@ INSERT INTO `cablecharges` (`id`, `dstv`, `gotv`, `startime`) VALUES
 
 CREATE TABLE `cable_lock` (
   `id` int NOT NULL,
-  `gotv` varchar(255) COLLATE utf8mb3_unicode_ci NOT NULL,
-  `dstv` varchar(255) COLLATE utf8mb3_unicode_ci NOT NULL,
-  `startime` varchar(255) COLLATE utf8mb3_unicode_ci NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3 COLLATE=utf8mb3_unicode_ci;
+  `gotv` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `dstv` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `startime` varchar(255) COLLATE utf8_unicode_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
 -- Dumping data for table `cable_lock`
@@ -392,11 +393,11 @@ INSERT INTO `cable_lock` (`id`, `gotv`, `dstv`, `startime`) VALUES
 
 CREATE TABLE `cash_number` (
   `id` int NOT NULL,
-  `mtn` varchar(255) COLLATE utf8mb3_unicode_ci NOT NULL,
-  `glo` varchar(255) COLLATE utf8mb3_unicode_ci NOT NULL,
-  `airtel` varchar(255) COLLATE utf8mb3_unicode_ci NOT NULL,
-  `9mobile` varchar(255) COLLATE utf8mb3_unicode_ci NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3 COLLATE=utf8mb3_unicode_ci;
+  `mtn` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `glo` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `airtel` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `9mobile` varchar(255) COLLATE utf8_unicode_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
 -- Dumping data for table `cash_number`
@@ -417,7 +418,7 @@ CREATE TABLE `contact` (
   `subject` varchar(255) NOT NULL,
   `message` varchar(255) NOT NULL,
   `email` varchar(255) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- --------------------------------------------------------
 
@@ -432,7 +433,7 @@ CREATE TABLE `coupon` (
   `username` varchar(255) NOT NULL,
   `date` varchar(255) NOT NULL,
   `status` varchar(255) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `coupon`
@@ -449,12 +450,12 @@ INSERT INTO `coupon` (`id`, `code`, `amount`, `username`, `date`, `status`) VALU
 
 CREATE TABLE `data_lock` (
   `id` int NOT NULL,
-  `mtn_gifting` varchar(255) COLLATE utf8mb3_unicode_ci NOT NULL,
-  `mtn_sme` varchar(255) COLLATE utf8mb3_unicode_ci NOT NULL,
-  `glo_data` varchar(255) COLLATE utf8mb3_unicode_ci NOT NULL,
-  `airtel_data` varchar(255) COLLATE utf8mb3_unicode_ci NOT NULL,
-  `9mobile_data` varchar(255) COLLATE utf8mb3_unicode_ci NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3 COLLATE=utf8mb3_unicode_ci;
+  `mtn_gifting` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `mtn_sme` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `glo_data` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `airtel_data` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `9mobile_data` varchar(255) COLLATE utf8_unicode_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
 -- Dumping data for table `data_lock`
@@ -478,7 +479,7 @@ CREATE TABLE `deposit` (
   `trans` varchar(255) NOT NULL,
   `date` varchar(255) NOT NULL,
   `type` varchar(255) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `deposit`
@@ -525,10 +526,10 @@ INSERT INTO `deposit` (`id`, `name`, `amount`, `charge`, `status`, `trans`, `dat
 
 CREATE TABLE `exam_lock` (
   `id` int NOT NULL,
-  `waec` varchar(255) COLLATE utf8mb3_unicode_ci NOT NULL,
-  `neco` varchar(255) COLLATE utf8mb3_unicode_ci NOT NULL,
-  `nabteb` varchar(255) COLLATE utf8mb3_unicode_ci NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3 COLLATE=utf8mb3_unicode_ci;
+  `waec` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `neco` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `nabteb` varchar(255) COLLATE utf8_unicode_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
 -- Dumping data for table `exam_lock`
@@ -561,7 +562,7 @@ CREATE TABLE `general` (
   `referprice` varchar(255) NOT NULL,
   `dev` varchar(255) NOT NULL,
   `color` varchar(255) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `general`
@@ -582,7 +583,7 @@ CREATE TABLE `kyc` (
   `bank` varchar(255) NOT NULL,
   `name` varchar(255) NOT NULL,
   `number` varchar(255) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `kyc`
@@ -612,7 +613,7 @@ CREATE TABLE `loan` (
   `amount` varchar(255) NOT NULL,
   `date` varchar(255) NOT NULL,
   `status` varchar(255) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `loan`
@@ -635,7 +636,7 @@ CREATE TABLE `mail` (
   `sender` varchar(255) NOT NULL,
   `username` varchar(255) NOT NULL,
   `password` varchar(255) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `mail`
@@ -652,14 +653,14 @@ INSERT INTO `mail` (`id`, `host`, `port`, `mail_auth_type`, `sender`, `username`
 
 CREATE TABLE `nabteb_result_token` (
   `id` int NOT NULL,
-  `pin` varchar(255) COLLATE utf8mb4_general_ci NOT NULL,
-  `serial_no` varchar(20) COLLATE utf8mb4_general_ci NOT NULL,
-  `added_by` varchar(255) COLLATE utf8mb4_general_ci NOT NULL,
-  `status` varchar(5) COLLATE utf8mb4_general_ci NOT NULL DEFAULT '0',
-  `time_added` varchar(255) COLLATE utf8mb4_general_ci NOT NULL,
-  `time_bought` varchar(100) COLLATE utf8mb4_general_ci NOT NULL,
-  `buyer_id` varchar(255) COLLATE utf8mb4_general_ci NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+  `pin` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `serial_no` varchar(20) COLLATE utf8_unicode_ci NOT NULL,
+  `added_by` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `status` varchar(5) COLLATE utf8_unicode_ci NOT NULL DEFAULT '0',
+  `time_added` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `time_bought` varchar(100) COLLATE utf8_unicode_ci NOT NULL,
+  `buyer_id` varchar(255) COLLATE utf8_unicode_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
 -- Dumping data for table `nabteb_result_token`
@@ -678,14 +679,14 @@ INSERT INTO `nabteb_result_token` (`id`, `pin`, `serial_no`, `added_by`, `status
 
 CREATE TABLE `neco_result_token` (
   `id` int NOT NULL,
-  `buyer_id` varchar(255) COLLATE utf8mb4_general_ci NOT NULL,
-  `pin` varchar(20) COLLATE utf8mb4_general_ci NOT NULL,
-  `serial_no` varchar(12) COLLATE utf8mb4_general_ci NOT NULL,
-  `status` varchar(4) COLLATE utf8mb4_general_ci NOT NULL,
-  `time_added` varchar(255) COLLATE utf8mb4_general_ci NOT NULL,
-  `time_bought` varchar(100) COLLATE utf8mb4_general_ci NOT NULL,
-  `added_by` varchar(255) COLLATE utf8mb4_general_ci NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+  `buyer_id` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `pin` varchar(20) COLLATE utf8_unicode_ci NOT NULL,
+  `serial_no` varchar(12) COLLATE utf8_unicode_ci NOT NULL,
+  `status` varchar(4) COLLATE utf8_unicode_ci NOT NULL,
+  `time_added` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `time_bought` varchar(100) COLLATE utf8_unicode_ci NOT NULL,
+  `added_by` varchar(255) COLLATE utf8_unicode_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- --------------------------------------------------------
 
@@ -695,10 +696,10 @@ CREATE TABLE `neco_result_token` (
 
 CREATE TABLE `network` (
   `id` int NOT NULL,
-  `top` varchar(255) COLLATE utf8mb4_general_ci NOT NULL,
-  `smart` varchar(255) COLLATE utf8mb4_general_ci NOT NULL,
-  `affiliate` varchar(255) COLLATE utf8mb4_general_ci NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+  `top` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `smart` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `affiliate` varchar(255) COLLATE utf8_unicode_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
 -- Dumping data for table `network`
@@ -715,9 +716,9 @@ INSERT INTO `network` (`id`, `top`, `smart`, `affiliate`) VALUES
 
 CREATE TABLE `networkid` (
   `id` int NOT NULL,
-  `networkid` varchar(255) COLLATE utf8mb3_unicode_ci NOT NULL,
-  `network` varchar(255) COLLATE utf8mb3_unicode_ci NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3 COLLATE=utf8mb3_unicode_ci;
+  `networkid` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `network` varchar(255) COLLATE utf8_unicode_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
 -- Dumping data for table `networkid`
@@ -737,13 +738,13 @@ INSERT INTO `networkid` (`id`, `networkid`, `network`) VALUES
 
 CREATE TABLE `notif` (
   `id` int NOT NULL,
-  `sender` varchar(255) COLLATE utf8mb3_unicode_ci NOT NULL,
-  `username` varchar(255) COLLATE utf8mb3_unicode_ci NOT NULL,
-  `des` mediumtext COLLATE utf8mb3_unicode_ci NOT NULL,
-  `long_des` mediumtext COLLATE utf8mb3_unicode_ci NOT NULL,
-  `status` varchar(255) COLLATE utf8mb3_unicode_ci NOT NULL,
-  `date` varchar(255) COLLATE utf8mb3_unicode_ci NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3 COLLATE=utf8mb3_unicode_ci;
+  `sender` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `username` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `des` mediumtext COLLATE utf8_unicode_ci NOT NULL,
+  `long_des` mediumtext COLLATE utf8_unicode_ci NOT NULL,
+  `status` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `date` varchar(255) COLLATE utf8_unicode_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
 -- Dumping data for table `notif`
@@ -778,9 +779,9 @@ INSERT INTO `notif` (`id`, `sender`, `username`, `des`, `long_des`, `status`, `d
 
 CREATE TABLE `notif_lock` (
   `id` int NOT NULL,
-  `message` varchar(255) COLLATE utf8mb3_unicode_ci NOT NULL,
-  `popup` varchar(255) COLLATE utf8mb3_unicode_ci NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3 COLLATE=utf8mb3_unicode_ci;
+  `message` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `popup` varchar(255) COLLATE utf8_unicode_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
 -- Dumping data for table `notif_lock`
@@ -797,12 +798,12 @@ INSERT INTO `notif_lock` (`id`, `message`, `popup`) VALUES
 
 CREATE TABLE `otp` (
   `id` int NOT NULL,
-  `username` varchar(255) COLLATE utf8mb4_general_ci NOT NULL,
-  `email` varchar(255) COLLATE utf8mb4_general_ci NOT NULL,
-  `time_sent` varchar(255) COLLATE utf8mb4_general_ci NOT NULL,
-  `reg_otp` varchar(255) COLLATE utf8mb4_general_ci NOT NULL,
-  `status` varchar(255) COLLATE utf8mb4_general_ci NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+  `username` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `email` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `time_sent` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `reg_otp` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `status` varchar(255) COLLATE utf8_unicode_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
 -- Dumping data for table `otp`
@@ -830,7 +831,7 @@ CREATE TABLE `pay` (
   `psecret` varchar(255) NOT NULL,
   `plivekey` varchar(255) NOT NULL,
   `airtime` varchar(255) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `pay`
@@ -850,7 +851,7 @@ CREATE TABLE `pin` (
   `cardpin` varchar(255) NOT NULL,
   `exam` varchar(255) NOT NULL,
   `status` varchar(255) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `pin`
@@ -881,7 +882,7 @@ CREATE TABLE `plans` (
   `network` varchar(255) NOT NULL,
   `customid` varchar(255) NOT NULL,
   `day` varchar(255) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `plans`
@@ -941,7 +942,7 @@ CREATE TABLE `rate` (
   `message` mediumtext NOT NULL,
   `status` mediumtext NOT NULL,
   `date` varchar(255) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `rate`
@@ -959,17 +960,17 @@ INSERT INTO `rate` (`id`, `username`, `message`, `status`, `date`) VALUES
 
 CREATE TABLE `resultchecker` (
   `id` int NOT NULL,
-  `transaction_id` varchar(255) COLLATE utf8mb3_unicode_ci NOT NULL,
-  `username` varchar(255) COLLATE utf8mb3_unicode_ci NOT NULL,
-  `amount` varchar(255) COLLATE utf8mb3_unicode_ci NOT NULL,
-  `newbal` varchar(255) COLLATE utf8mb3_unicode_ci NOT NULL,
-  `oldbal` varchar(255) COLLATE utf8mb3_unicode_ci NOT NULL,
-  `exam` char(10) COLLATE utf8mb3_unicode_ci DEFAULT NULL,
-  `serial_no` varchar(255) COLLATE utf8mb3_unicode_ci NOT NULL,
-  `pin` varchar(255) COLLATE utf8mb3_unicode_ci NOT NULL,
-  `status` varchar(255) COLLATE utf8mb3_unicode_ci NOT NULL,
+  `transaction_id` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `username` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `amount` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `newbal` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `oldbal` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `exam` char(10) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `serial_no` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `pin` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `status` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
   `date` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3 COLLATE=utf8mb3_unicode_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
 -- Dumping data for table `resultchecker`
@@ -988,10 +989,10 @@ INSERT INTO `resultchecker` (`id`, `transaction_id`, `username`, `amount`, `newb
 
 CREATE TABLE `scratch_card_prices` (
   `id` int NOT NULL,
-  `waec_card` varchar(5) COLLATE utf8mb4_general_ci NOT NULL,
-  `neco_token` varchar(5) COLLATE utf8mb4_general_ci NOT NULL,
-  `nabteb_token` varchar(5) COLLATE utf8mb4_general_ci NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+  `waec_card` varchar(5) COLLATE utf8_unicode_ci NOT NULL,
+  `neco_token` varchar(5) COLLATE utf8_unicode_ci NOT NULL,
+  `nabteb_token` varchar(5) COLLATE utf8_unicode_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
 -- Dumping data for table `scratch_card_prices`
@@ -1013,7 +1014,7 @@ CREATE TABLE `setting` (
   `paystack` varchar(255) NOT NULL,
   `monnify` varchar(255) NOT NULL,
   `bank` varchar(255) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `setting`
@@ -1030,11 +1031,11 @@ INSERT INTO `setting` (`id`, `email`, `flutter`, `paystack`, `monnify`, `bank`) 
 
 CREATE TABLE `share` (
   `id` int NOT NULL,
-  `mtn` varchar(255) COLLATE utf8mb3_unicode_ci NOT NULL,
-  `9mobile` varchar(255) COLLATE utf8mb3_unicode_ci NOT NULL,
-  `airtel` varchar(255) COLLATE utf8mb3_unicode_ci NOT NULL,
-  `glo` varchar(255) COLLATE utf8mb3_unicode_ci NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3 COLLATE=utf8mb3_unicode_ci;
+  `mtn` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `9mobile` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `airtel` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `glo` varchar(255) COLLATE utf8_unicode_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
 -- Dumping data for table `share`
@@ -1051,21 +1052,21 @@ INSERT INTO `share` (`id`, `mtn`, `9mobile`, `airtel`, `glo`) VALUES
 
 CREATE TABLE `simhosting` (
   `id` int NOT NULL,
-  `vt_username` varchar(255) COLLATE utf8mb3_unicode_ci NOT NULL,
-  `vt_password` varchar(255) COLLATE utf8mb3_unicode_ci NOT NULL,
-  `vt_public_key` varchar(255) COLLATE utf8mb3_unicode_ci NOT NULL,
-  `vt_secret_key` varchar(255) COLLATE utf8mb3_unicode_ci NOT NULL,
-  `cable_plug_url` varchar(255) CHARACTER SET utf8mb3 COLLATE utf8mb3_unicode_ci NOT NULL,
-  `smeplug` varchar(255) COLLATE utf8mb3_unicode_ci NOT NULL,
-  `smeplugurl` varchar(255) COLLATE utf8mb3_unicode_ci NOT NULL,
-  `topup_plug_url` varchar(255) COLLATE utf8mb3_unicode_ci NOT NULL,
-  `topup_plug_api_key` varchar(255) COLLATE utf8mb3_unicode_ci NOT NULL,
-  `data_plug_url` varchar(255) COLLATE utf8mb3_unicode_ci NOT NULL,
-  `data_plug_api_key` varchar(255) COLLATE utf8mb3_unicode_ci NOT NULL,
-  `bulk_username` varchar(255) COLLATE utf8mb3_unicode_ci NOT NULL,
-  `bulk_password` varchar(255) COLLATE utf8mb3_unicode_ci NOT NULL,
-  `smeplubic` varchar(255) COLLATE utf8mb3_unicode_ci NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3 COLLATE=utf8mb3_unicode_ci;
+  `vt_username` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `vt_password` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `vt_public_key` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `vt_secret_key` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `cable_plug_url` varchar(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `smeplug` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `smeplugurl` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `topup_plug_url` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `topup_plug_api_key` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `data_plug_url` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `data_plug_api_key` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `bulk_username` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `bulk_password` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `smeplubic` varchar(255) COLLATE utf8_unicode_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
 -- Dumping data for table `simhosting`
@@ -1086,7 +1087,7 @@ CREATE TABLE `sms` (
   `username` varchar(255) NOT NULL,
   `password` varchar(255) NOT NULL,
   `api` varchar(255) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- --------------------------------------------------------
 
@@ -1097,7 +1098,7 @@ CREATE TABLE `sms` (
 CREATE TABLE `terms` (
   `id` int NOT NULL,
   `adex` mediumtext NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `terms`
@@ -1115,7 +1116,7 @@ INSERT INTO `terms` (`id`, `adex`) VALUES
 CREATE TABLE `theme` (
   `id` int NOT NULL,
   `status` varchar(255) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `theme`
@@ -1144,7 +1145,7 @@ CREATE TABLE `transactions` (
   `date` varchar(255) NOT NULL,
   `oldbal` varchar(255) NOT NULL,
   `newbal` varchar(255) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `transactions`
@@ -1422,15 +1423,15 @@ INSERT INTO `transactions` (`id`, `username`, `transid`, `network`, `mobile`, `s
 
 CREATE TABLE `transfer` (
   `id` int NOT NULL,
-  `username` varchar(255) COLLATE utf8mb3_unicode_ci NOT NULL,
-  `amount` varchar(255) COLLATE utf8mb3_unicode_ci NOT NULL,
-  `newbal` varchar(255) COLLATE utf8mb3_unicode_ci NOT NULL,
-  `oldbal` varchar(255) COLLATE utf8mb3_unicode_ci NOT NULL,
-  `transid` varchar(255) COLLATE utf8mb3_unicode_ci NOT NULL,
-  `name` varchar(255) COLLATE utf8mb3_unicode_ci NOT NULL,
-  `status` varchar(255) COLLATE utf8mb3_unicode_ci NOT NULL,
-  `date` varchar(255) COLLATE utf8mb3_unicode_ci NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3 COLLATE=utf8mb3_unicode_ci;
+  `username` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `amount` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `newbal` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `oldbal` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `transid` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `name` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `status` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `date` varchar(255) COLLATE utf8_unicode_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
 -- Dumping data for table `transfer`
@@ -1448,9 +1449,9 @@ INSERT INTO `transfer` (`id`, `username`, `amount`, `newbal`, `oldbal`, `transid
 
 CREATE TABLE `upgrade_user` (
   `id` int NOT NULL,
-  `reseller` varchar(255) COLLATE utf8mb3_unicode_ci NOT NULL,
-  `topup` varchar(255) COLLATE utf8mb3_unicode_ci NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3 COLLATE=utf8mb3_unicode_ci;
+  `reseller` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `topup` varchar(255) COLLATE utf8_unicode_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
 -- Dumping data for table `upgrade_user`
@@ -1489,7 +1490,7 @@ CREATE TABLE `user` (
   `monnify` varchar(255) DEFAULT NULL,
   `rolexbank` varchar(255) DEFAULT NULL,
   `rolexnumber` varchar(255) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `user`
@@ -1532,27 +1533,25 @@ INSERT INTO `user` (`id`, `name`, `username`, `email`, `phone`, `ref`, `status`,
 (422, 'hafsat adamu bawa', 'bawaadamu', 'bawa@gmail.com', '09088765434', '', '1', 'b153f0ac42', '2000', '0.0', '0', '11/02/2023 09:29', 'n3C2kB4q3A8hCCCA4632CrbCAbzA31x9BsEC5txAd9FIC6xfCiH8p1lcmJ5G', 'bawaadamu', 'Wema bank', '8827583281', 'ACTIVE', 'SMART', '105.112.224.247', NULL, NULL, 'Moniepoint Microfinance Bank', '6226720206'),
 (423, 'Agwegiokhe Oshiobugie', 'AgwegiokheOsh', 'rankencorp@gmail.com', 'empty', '', '1', '1234567890', '5000', '0.0', '0', '27/04/2023 00:05:34', 'X4l92C1IgBHJQNyi6449ae3e866daVSKDhLZixMw9Jpa1YkIdlWurg58QeAR4', 'AgwegiokheOsh', 'Wema bank', '7157997463', 'ACTIVE', 'SMART', '::1', '0000', NULL, 'Moniepoint Microfinance Bank', '6261849979');
 
--- --------------------------------------------------------
-
 --
 -- Table structure for table `utility_bills`
 --
 
 CREATE TABLE `utility_bills` (
   `id` int NOT NULL,
-  `transaction_id` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
+  `transaction_id` varchar(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
   `name` varchar(255) NOT NULL,
   `user` varchar(255) NOT NULL,
-  `phone` varchar(30) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
+  `phone` varchar(30) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
   `amount` double UNSIGNED NOT NULL DEFAULT '0',
-  `product` varchar(200) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
+  `product` varchar(200) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
   `token` varchar(255) NOT NULL,
   `tax` double UNSIGNED NOT NULL DEFAULT '0',
   `units` double UNSIGNED NOT NULL DEFAULT '0',
   `token_amount` double NOT NULL DEFAULT '0',
   `status` char(50) NOT NULL DEFAULT 'pending',
   `created_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
 -- Dumping data for table `utility_bills`
@@ -1570,14 +1569,14 @@ INSERT INTO `utility_bills` (`id`, `transaction_id`, `name`, `user`, `phone`, `a
 
 CREATE TABLE `waec_scratch_card` (
   `id` int NOT NULL,
-  `buyer_id` varchar(255) COLLATE utf8mb4_general_ci NOT NULL,
-  `pin` varchar(20) COLLATE utf8mb4_general_ci NOT NULL,
-  `serial_no` varchar(20) COLLATE utf8mb4_general_ci NOT NULL,
-  `added_by` varchar(255) COLLATE utf8mb4_general_ci NOT NULL,
+  `buyer_id` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `pin` varchar(20) COLLATE utf8_unicode_ci NOT NULL,
+  `serial_no` varchar(20) COLLATE utf8_unicode_ci NOT NULL,
+  `added_by` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
   `status` int DEFAULT '0',
-  `time_added` varchar(255) COLLATE utf8mb4_general_ci NOT NULL,
-  `time_bought` varchar(100) COLLATE utf8mb4_general_ci NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+  `time_added` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `time_bought` varchar(100) COLLATE utf8_unicode_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
 -- Dumping data for table `waec_scratch_card`
